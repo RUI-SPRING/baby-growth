@@ -26,6 +26,10 @@
         <module>rocketmq-service</module>
         <module>feign-service</module>
         <module>album-service</module>
+        <module>record-service</module>
+        <module>task-service</module>
+        <module>message-service</module>
+        <module>exchange-service</module>
     </modules>
 
     <!--定义springcloud使用版本号等属性信息-->

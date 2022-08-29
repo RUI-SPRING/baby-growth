@@ -1,0 +1,40 @@
+server:
+  port: 8086
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://1.116.137.46:3306/jiezi?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: rootroot
+  redis:
+    host: 1.116.137.46
+    port: 6379
+    lettuce:
+      pool:
+        #连接池最大连接量
+        max-active: 8
+        #连接最大阻塞时间
+        max-wait: -1
+        #空闲的最大数量
+        max-idle: 8
+        #空闲的最小数量
+        min-idle: 0
+    timeout: 30000
+    password: jiezishuredis
+  #nacos配置
+  cloud:
+    nacos:
+      #配置集群名称，也就是机房位置，如：HZ，SH
+      discovery:
+        cluster-name: SH
+
+# mybatis-plus配置
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启sql日志
+    #该配置就是将带有下划线的表字段映射为驼峰格式的实体类属性
+    map-underscore-to-camel-case: true
+
+
+
+

@@ -1,0 +1,35 @@
+2022-08-29 23:32:10,786 [INFO] Reflections took 20 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-08-29 23:32:10,806 [INFO] Reflections took 10 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-08-29 23:32:10,816 [INFO] Reflections took 10 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-08-29 23:32:10,906 [INFO] Reflections took 90 ms to scan 169 urls, producing 0 keys and 0 values 
+2022-08-29 23:32:10,916 [INFO] Reflections took 10 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-08-29 23:32:10,916 [INFO] Reflections took 0 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-08-29 23:32:10,926 [INFO] Reflections took 0 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-08-29 23:32:11,007 [INFO] Reflections took 81 ms to scan 169 urls, producing 0 keys and 0 values 
+2022-08-29 23:32:11,837 [WARN] Ignore the empty nacos configuration and get it based on dataId[messageservice] & group[DEFAULT_GROUP]
+2022-08-29 23:32:11,847 [WARN] Ignore the empty nacos configuration and get it based on dataId[messageservice.yaml] & group[DEFAULT_GROUP]
+2022-08-29 23:32:11,857 [INFO] Located property source: [BootstrapPropertySource {name='bootstrapProperties-messageservice-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-messageservice.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-messageservice,DEFAULT_GROUP'}]
+2022-08-29 23:32:11,867 [INFO] The following profiles are active: dev
+2022-08-29 23:32:12,267 [INFO] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-29 23:32:12,267 [INFO] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-29 23:32:12,277 [INFO] Finished Spring Data repository scanning in 2ms. Found 0 Redis repository interfaces.
+2022-08-29 23:32:12,357 [WARN] No MyBatis mapper was found in '[com.message]' package. Please check your configuration.
+2022-08-29 23:32:12,407 [INFO] BeanFactory id=5ee19f7c-7417-3eb1-bf15-524a3629c9d4
+2022-08-29 23:32:12,567 [INFO] Tomcat initialized with port(s): 8088 (http)
+2022-08-29 23:32:12,567 [INFO] Starting service [Tomcat]
+2022-08-29 23:32:12,567 [INFO] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-08-29 23:32:12,627 [INFO] Initializing Spring embedded WebApplicationContext
+2022-08-29 23:32:12,627 [INFO] Root WebApplicationContext: initialization completed in 750 ms
+2022-08-29 23:32:12,977 [INFO] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-29 23:32:12,987 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-29 23:32:12,987 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-29 23:32:12,987 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-29 23:32:12,987 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-29 23:32:13,037 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-29 23:32:13,257 [INFO] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-29 23:32:14,381 [INFO] Tomcat started on port(s): 8088 (http) with context path ''
+2022-08-29 23:32:14,401 [INFO] nacos registry, DEFAULT_GROUP messageservice 192.168.1.115:8088 register finished
+2022-08-29 23:32:14,561 [INFO] Context refreshed
+2022-08-29 23:32:14,561 [INFO] Found 1 custom documentation plugin(s)
+2022-08-29 23:32:14,581 [INFO] Scanning for api listing references
+2022-08-29 23:32:14,651 [INFO] Started MessageApplication in 4.72 seconds (JVM running for 5.342)

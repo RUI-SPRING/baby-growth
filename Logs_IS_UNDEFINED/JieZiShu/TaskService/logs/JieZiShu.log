@@ -1,0 +1,33 @@
+2022-08-29 23:39:21,719 [INFO] Reflections took 22 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-08-29 23:39:21,738 [INFO] Reflections took 9 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-08-29 23:39:21,751 [INFO] Reflections took 11 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-08-29 23:39:21,844 [INFO] Reflections took 90 ms to scan 169 urls, producing 0 keys and 0 values 
+2022-08-29 23:39:21,852 [INFO] Reflections took 7 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-08-29 23:39:21,860 [INFO] Reflections took 7 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-08-29 23:39:21,868 [INFO] Reflections took 6 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-08-29 23:39:21,940 [INFO] Reflections took 70 ms to scan 169 urls, producing 0 keys and 0 values 
+2022-08-29 23:39:22,775 [WARN] Ignore the empty nacos configuration and get it based on dataId[taskservice] & group[DEFAULT_GROUP]
+2022-08-29 23:39:22,784 [WARN] Ignore the empty nacos configuration and get it based on dataId[taskservice.yaml] & group[DEFAULT_GROUP]
+2022-08-29 23:39:22,794 [INFO] Located property source: [BootstrapPropertySource {name='bootstrapProperties-taskservice-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-taskservice.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-taskservice,DEFAULT_GROUP'}]
+2022-08-29 23:39:23,216 [INFO] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-29 23:39:23,216 [INFO] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-29 23:39:23,226 [INFO] Finished Spring Data repository scanning in 3ms. Found 0 Redis repository interfaces.
+2022-08-29 23:39:23,286 [WARN] No MyBatis mapper was found in '[com.task]' package. Please check your configuration.
+2022-08-29 23:39:23,326 [INFO] BeanFactory id=d421b417-e247-3797-b1e2-671aa099133c
+2022-08-29 23:39:23,491 [INFO] Tomcat initialized with port(s): 8089 (http)
+2022-08-29 23:39:23,501 [INFO] Starting service [Tomcat]
+2022-08-29 23:39:23,501 [INFO] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-08-29 23:39:23,551 [INFO] Initializing Spring embedded WebApplicationContext
+2022-08-29 23:39:23,551 [INFO] Root WebApplicationContext: initialization completed in 747 ms
+2022-08-29 23:39:23,895 [INFO] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-29 23:39:23,895 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-29 23:39:23,895 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-29 23:39:23,905 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-29 23:39:23,916 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-29 23:39:23,965 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-29 23:39:24,189 [INFO] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-29 23:39:25,313 [INFO] Tomcat started on port(s): 8089 (http) with context path ''
+2022-08-29 23:39:25,333 [INFO] nacos registry, DEFAULT_GROUP taskservice 192.168.1.115:8089 register finished
+2022-08-29 23:39:25,483 [INFO] Context refreshed
+2022-08-29 23:39:25,493 [INFO] Found 1 custom documentation plugin(s)
+2022-08-29 23:39:25,503 [INFO] Scanning for api listing references
