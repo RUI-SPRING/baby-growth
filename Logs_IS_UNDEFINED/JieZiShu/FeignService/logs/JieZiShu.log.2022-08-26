@@ -1,0 +1,1395 @@
+2022-08-26 19:44:15,170 [INFO] Reflections took 18 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-08-26 19:44:15,187 [INFO] Reflections took 9 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-08-26 19:44:15,197 [INFO] Reflections took 8 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-08-26 19:44:15,272 [INFO] Reflections took 73 ms to scan 124 urls, producing 0 keys and 0 values 
+2022-08-26 19:44:15,281 [INFO] Reflections took 8 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-08-26 19:44:15,292 [INFO] Reflections took 9 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-08-26 19:44:15,303 [INFO] Reflections took 9 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-08-26 19:44:15,364 [INFO] Reflections took 60 ms to scan 124 urls, producing 0 keys and 0 values 
+2022-08-26 19:44:16,246 [WARN] Ignore the empty nacos configuration and get it based on dataId[feignservice] & group[DEFAULT_GROUP]
+2022-08-26 19:44:16,257 [WARN] Ignore the empty nacos configuration and get it based on dataId[feignservice.yaml] & group[DEFAULT_GROUP]
+2022-08-26 19:44:16,269 [INFO] Located property source: [BootstrapPropertySource {name='bootstrapProperties-feignservice-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-feignservice.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-feignservice,DEFAULT_GROUP'}]
+2022-08-26 19:44:16,606 [INFO] BeanFactory id=47c7c02f-8b2a-376a-8b13-598ea2c055e7
+2022-08-26 19:44:16,726 [INFO] Tomcat initialized with port(s): 8083 (http)
+2022-08-26 19:44:16,731 [INFO] Starting service [Tomcat]
+2022-08-26 19:44:16,731 [INFO] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-08-26 19:44:16,789 [INFO] Initializing Spring embedded WebApplicationContext
+2022-08-26 19:44:16,789 [INFO] Root WebApplicationContext: initialization completed in 484 ms
+2022-08-26 19:44:16,871 [INFO] For 'userservice' URL not provided. Will try picking an instance via load-balancing.
+2022-08-26 19:44:17,141 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 19:44:17,141 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 19:44:17,143 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 19:44:17,143 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 19:44:17,193 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-26 19:44:17,420 [INFO] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 19:44:17,640 [INFO] initializer namespace from System Property : null
+2022-08-26 19:44:17,640 [INFO] initializer namespace from System Environment :null
+2022-08-26 19:44:17,640 [INFO] initializer namespace from System Property :null
+2022-08-26 19:44:17,648 [INFO] [RpcClientFactory] create a new rpc client of 14ddc2d2-c503-4578-be15-56df57033524
+2022-08-26 19:44:17,648 [INFO] [14ddc2d2-c503-4578-be15-56df57033524]RpcClient init label, labels={module=naming, source=sdk}
+2022-08-26 19:44:17,649 [INFO] [14ddc2d2-c503-4578-be15-56df57033524]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+2022-08-26 19:44:17,649 [INFO] [14ddc2d2-c503-4578-be15-56df57033524]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2022-08-26 19:44:17,649 [INFO] [14ddc2d2-c503-4578-be15-56df57033524]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2022-08-26 19:44:17,650 [INFO] [14ddc2d2-c503-4578-be15-56df57033524] Try to connect to server on start up, server: {serverIp='1.116.137.46', server main port=8848}
+2022-08-26 19:44:17,778 [INFO] [14ddc2d2-c503-4578-be15-56df57033524] Success to connect to server [1.116.137.46:8848] on start up,connectionId=1661514258165_211.161.248.48_64747
+2022-08-26 19:44:17,778 [INFO] [14ddc2d2-c503-4578-be15-56df57033524]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2022-08-26 19:44:17,778 [INFO] [14ddc2d2-c503-4578-be15-56df57033524]Notify connected event to listeners.
+2022-08-26 19:44:17,778 [INFO] [14ddc2d2-c503-4578-be15-56df57033524]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+2022-08-26 19:44:17,778 [INFO] Grpc connection connect
+2022-08-26 19:44:17,799 [INFO] init new ips(0) service: DEFAULT_GROUP@@feignservice@@SH -> []
+2022-08-26 19:44:17,805 [INFO] current ips:(0) service: DEFAULT_GROUP@@feignservice@@SH -> []
+2022-08-26 19:44:17,820 [INFO] Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-26 19:44:17,823 [INFO] [REGISTER-SERVICE] public registering service feignservice with instance Instance{instanceId='null', ip='192.168.1.115', port=8083, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='SH', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2022-08-26 19:44:17,835 [INFO] nacos registry, DEFAULT_GROUP feignservice 192.168.1.115:8083 register finished
+2022-08-26 19:44:18,020 [INFO] [config_rpc_client] [subscribe] feignservice-dev.yaml+DEFAULT_GROUP
+2022-08-26 19:44:18,020 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=feignservice-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2022-08-26 19:44:18,020 [INFO] [config_rpc_client] [subscribe] feignservice+DEFAULT_GROUP
+2022-08-26 19:44:18,020 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=feignservice, group=DEFAULT_GROUP, cnt=1
+2022-08-26 19:44:18,021 [INFO] [config_rpc_client] [subscribe] feignservice.yaml+DEFAULT_GROUP
+2022-08-26 19:44:18,021 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=feignservice.yaml, group=DEFAULT_GROUP, cnt=1
+2022-08-26 19:44:18,311 [INFO] [14ddc2d2-c503-4578-be15-56df57033524]receive server push request,request=NotifySubscriberRequest,requestId=119
+2022-08-26 19:44:18,312 [INFO] init new ips(1) service: DEFAULT_GROUP@@feignservice -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@feignservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-08-26 19:44:18,312 [INFO] current ips:(1) service: DEFAULT_GROUP@@feignservice -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@feignservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-08-26 19:44:18,313 [INFO] [14ddc2d2-c503-4578-be15-56df57033524]ack server push request,request=NotifySubscriberRequest,requestId=119
+2022-08-26 19:44:18,793 [INFO] new ips(1) service: DEFAULT_GROUP@@feignservice@@SH -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@feignservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-08-26 19:44:18,793 [INFO] current ips:(1) service: DEFAULT_GROUP@@feignservice@@SH -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@feignservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-08-26 19:57:49,840 [INFO] Reflections took 19 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-08-26 19:57:49,860 [INFO] Reflections took 10 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-08-26 19:57:49,870 [INFO] Reflections took 8 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-08-26 19:57:49,952 [INFO] Reflections took 79 ms to scan 125 urls, producing 0 keys and 0 values 
+2022-08-26 19:57:49,960 [INFO] Reflections took 8 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-08-26 19:57:49,972 [INFO] Reflections took 10 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-08-26 19:57:49,983 [INFO] Reflections took 9 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-08-26 19:57:50,044 [INFO] Reflections took 60 ms to scan 125 urls, producing 0 keys and 0 values 
+2022-08-26 19:57:50,905 [WARN] Ignore the empty nacos configuration and get it based on dataId[albumservice] & group[DEFAULT_GROUP]
+2022-08-26 19:57:50,914 [WARN] Ignore the empty nacos configuration and get it based on dataId[albumservice.yaml] & group[DEFAULT_GROUP]
+2022-08-26 19:57:50,922 [WARN] Ignore the empty nacos configuration and get it based on dataId[albumservice-dev.yaml] & group[DEFAULT_GROUP]
+2022-08-26 19:57:50,923 [INFO] Located property source: [BootstrapPropertySource {name='bootstrapProperties-albumservice-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-albumservice.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-albumservice,DEFAULT_GROUP'}]
+2022-08-26 19:57:50,949 [INFO] The following profiles are active: dev
+2022-08-26 19:57:51,245 [INFO] BeanFactory id=529969ed-26cc-3bbd-9def-edcb9d23aa35
+2022-08-26 19:57:51,365 [INFO] Tomcat initialized with port(s): 8083 (http)
+2022-08-26 19:57:51,370 [INFO] Starting service [Tomcat]
+2022-08-26 19:57:51,370 [INFO] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-08-26 19:57:51,431 [INFO] Initializing Spring embedded WebApplicationContext
+2022-08-26 19:57:51,431 [INFO] Root WebApplicationContext: initialization completed in 474 ms
+2022-08-26 19:57:51,459 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 19:57:51,459 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 19:57:51,461 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 19:57:51,461 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 19:57:51,522 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-26 19:57:51,758 [INFO] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 19:57:52,296 [INFO] initializer namespace from System Property : null
+2022-08-26 19:57:52,296 [INFO] initializer namespace from System Environment :null
+2022-08-26 19:57:52,297 [INFO] initializer namespace from System Property :null
+2022-08-26 19:57:52,306 [INFO] [RpcClientFactory] create a new rpc client of 9b629585-2461-4301-8c06-3de07f2026eb
+2022-08-26 19:57:52,306 [INFO] [9b629585-2461-4301-8c06-3de07f2026eb]RpcClient init label, labels={module=naming, source=sdk}
+2022-08-26 19:57:52,307 [INFO] [9b629585-2461-4301-8c06-3de07f2026eb]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+2022-08-26 19:57:52,307 [INFO] [9b629585-2461-4301-8c06-3de07f2026eb]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2022-08-26 19:57:52,307 [INFO] [9b629585-2461-4301-8c06-3de07f2026eb]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2022-08-26 19:57:52,308 [INFO] [9b629585-2461-4301-8c06-3de07f2026eb] Try to connect to server on start up, server: {serverIp='1.116.137.46', server main port=8848}
+2022-08-26 19:57:52,446 [INFO] [9b629585-2461-4301-8c06-3de07f2026eb] Success to connect to server [1.116.137.46:8848] on start up,connectionId=1661515072823_211.161.248.176_65170
+2022-08-26 19:57:52,446 [INFO] [9b629585-2461-4301-8c06-3de07f2026eb]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2022-08-26 19:57:52,446 [INFO] [9b629585-2461-4301-8c06-3de07f2026eb]Notify connected event to listeners.
+2022-08-26 19:57:52,446 [INFO] [9b629585-2461-4301-8c06-3de07f2026eb]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+2022-08-26 19:57:52,446 [INFO] Grpc connection connect
+2022-08-26 19:57:52,466 [INFO] init new ips(0) service: DEFAULT_GROUP@@albumservice@@SH -> []
+2022-08-26 19:57:52,472 [INFO] current ips:(0) service: DEFAULT_GROUP@@albumservice@@SH -> []
+2022-08-26 19:57:52,486 [INFO] Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-26 19:57:52,488 [INFO] [REGISTER-SERVICE] public registering service albumservice with instance Instance{instanceId='null', ip='192.168.1.115', port=8083, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='SH', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2022-08-26 19:57:52,498 [INFO] nacos registry, DEFAULT_GROUP albumservice 192.168.1.115:8083 register finished
+2022-08-26 19:57:52,679 [INFO] Started AlbumApplication in 3.631 seconds (JVM running for 4.181)
+2022-08-26 19:57:52,682 [INFO] [config_rpc_client] [subscribe] albumservice.yaml+DEFAULT_GROUP
+2022-08-26 19:57:52,683 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=albumservice.yaml, group=DEFAULT_GROUP, cnt=1
+2022-08-26 19:57:52,683 [INFO] [config_rpc_client] [subscribe] albumservice-dev.yaml+DEFAULT_GROUP
+2022-08-26 19:57:52,683 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=albumservice-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2022-08-26 19:57:52,683 [INFO] [config_rpc_client] [subscribe] albumservice+DEFAULT_GROUP
+2022-08-26 19:57:52,683 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=albumservice, group=DEFAULT_GROUP, cnt=1
+2022-08-26 19:57:52,996 [INFO] [9b629585-2461-4301-8c06-3de07f2026eb]receive server push request,request=NotifySubscriberRequest,requestId=123
+2022-08-26 19:57:52,997 [INFO] init new ips(1) service: DEFAULT_GROUP@@albumservice -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@albumservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2022-08-26 19:57:52,997 [INFO] current ips:(1) service: DEFAULT_GROUP@@albumservice -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@albumservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2022-08-26 19:57:52,998 [INFO] [9b629585-2461-4301-8c06-3de07f2026eb]ack server push request,request=NotifySubscriberRequest,requestId=123
+2022-08-26 19:57:53,466 [INFO] new ips(1) service: DEFAULT_GROUP@@albumservice@@SH -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@albumservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2022-08-26 19:57:53,467 [INFO] current ips:(1) service: DEFAULT_GROUP@@albumservice@@SH -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@albumservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2022-08-26 20:00:27,267 [INFO] [c865e0d5-628e-4261-ae60-3ddb999d80f7_config-0]receive server push request,request=ConfigChangeNotifyRequest,requestId=124
+2022-08-26 20:00:27,267 [INFO] [c865e0d5-628e-4261-ae60-3ddb999d80f7_config-0] [server-push] config changed. dataId=albumservice-dev.yaml, group=DEFAULT_GROUP,tenant=null
+2022-08-26 20:00:27,267 [INFO] [c865e0d5-628e-4261-ae60-3ddb999d80f7_config-0]ack server push request,request=ConfigChangeNotifyRequest,requestId=124
+2022-08-26 20:00:27,290 [INFO] isMultiInstance:false
+2022-08-26 20:00:27,292 [INFO] [config_rpc_client] [data-received] dataId=albumservice-dev.yaml, group=DEFAULT_GROUP, tenant=, md5=dc546351fb1856208b3cee9104e32807, content=albumconfig:
+  dateformat: yyyy-MM-dd HH:mm:ss, type=yaml
+2022-08-26 20:00:27,293 [INFO] [config_rpc_client] [notify-listener] time cost=0ms in ClientWorker, dataId=albumservice-dev.yaml, group=DEFAULT_GROUP, md5=dc546351fb1856208b3cee9104e32807, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@19910af1 
+2022-08-26 20:00:27,293 [INFO] [config_rpc_client] [notify-context] dataId=albumservice-dev.yaml, group=DEFAULT_GROUP, md5=dc546351fb1856208b3cee9104e32807
+2022-08-26 20:00:27,739 [WARN] Ignore the empty nacos configuration and get it based on dataId[albumservice] & group[DEFAULT_GROUP]
+2022-08-26 20:00:27,748 [WARN] Ignore the empty nacos configuration and get it based on dataId[albumservice.yaml] & group[DEFAULT_GROUP]
+2022-08-26 20:00:27,768 [INFO] Located property source: [BootstrapPropertySource {name='bootstrapProperties-albumservice-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-albumservice.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-albumservice,DEFAULT_GROUP'}]
+2022-08-26 20:00:27,776 [INFO] The following profiles are active: dev
+2022-08-26 20:00:27,782 [INFO] Started application in 0.486 seconds (JVM running for 159.283)
+2022-08-26 20:00:27,796 [INFO] Refresh keys changed: [albumconfig.dateformat]
+2022-08-26 20:00:27,796 [INFO] [config_rpc_client] [notify-ok] dataId=albumservice-dev.yaml, group=DEFAULT_GROUP, md5=dc546351fb1856208b3cee9104e32807, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@19910af1 ,cost=503 millis.
+2022-08-26 20:08:35,691 [INFO] Reflections took 19 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-08-26 20:08:35,710 [INFO] Reflections took 10 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-08-26 20:08:35,719 [INFO] Reflections took 8 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-08-26 20:08:35,796 [INFO] Reflections took 73 ms to scan 125 urls, producing 0 keys and 0 values 
+2022-08-26 20:08:35,805 [INFO] Reflections took 8 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-08-26 20:08:35,816 [INFO] Reflections took 9 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-08-26 20:08:35,826 [INFO] Reflections took 6 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-08-26 20:08:35,887 [INFO] Reflections took 59 ms to scan 125 urls, producing 0 keys and 0 values 
+2022-08-26 20:08:36,766 [WARN] Ignore the empty nacos configuration and get it based on dataId[albumservice] & group[DEFAULT_GROUP]
+2022-08-26 20:08:36,775 [WARN] Ignore the empty nacos configuration and get it based on dataId[albumservice.yaml] & group[DEFAULT_GROUP]
+2022-08-26 20:08:36,788 [INFO] Located property source: [BootstrapPropertySource {name='bootstrapProperties-albumservice-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-albumservice.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-albumservice,DEFAULT_GROUP'}]
+2022-08-26 20:08:36,814 [INFO] The following profiles are active: dev
+2022-08-26 20:08:37,117 [INFO] BeanFactory id=ade522bd-8634-3dac-9a8c-2a37a488dd8e
+2022-08-26 20:08:37,241 [INFO] Tomcat initialized with port(s): 8083 (http)
+2022-08-26 20:08:37,245 [INFO] Starting service [Tomcat]
+2022-08-26 20:08:37,245 [INFO] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-08-26 20:08:37,304 [INFO] Initializing Spring embedded WebApplicationContext
+2022-08-26 20:08:37,304 [INFO] Root WebApplicationContext: initialization completed in 482 ms
+2022-08-26 20:08:37,388 [INFO] For 'userservice' URL not provided. Will try picking an instance via load-balancing.
+2022-08-26 20:08:37,665 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:08:37,665 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:08:37,667 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:08:37,667 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:08:37,722 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-26 20:08:37,948 [INFO] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 20:08:38,176 [INFO] initializer namespace from System Property : null
+2022-08-26 20:08:38,176 [INFO] initializer namespace from System Environment :null
+2022-08-26 20:08:38,176 [INFO] initializer namespace from System Property :null
+2022-08-26 20:08:38,185 [INFO] [RpcClientFactory] create a new rpc client of d107e6d9-3353-46aa-8925-f972fac116f7
+2022-08-26 20:08:38,185 [INFO] [d107e6d9-3353-46aa-8925-f972fac116f7]RpcClient init label, labels={module=naming, source=sdk}
+2022-08-26 20:08:38,186 [INFO] [d107e6d9-3353-46aa-8925-f972fac116f7]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+2022-08-26 20:08:38,186 [INFO] [d107e6d9-3353-46aa-8925-f972fac116f7]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2022-08-26 20:08:38,186 [INFO] [d107e6d9-3353-46aa-8925-f972fac116f7]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2022-08-26 20:08:38,186 [INFO] [d107e6d9-3353-46aa-8925-f972fac116f7] Try to connect to server on start up, server: {serverIp='1.116.137.46', server main port=8848}
+2022-08-26 20:08:38,327 [INFO] [d107e6d9-3353-46aa-8925-f972fac116f7] Success to connect to server [1.116.137.46:8848] on start up,connectionId=1661515718705_211.161.248.48_65421
+2022-08-26 20:08:38,327 [INFO] [d107e6d9-3353-46aa-8925-f972fac116f7]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2022-08-26 20:08:38,327 [INFO] [d107e6d9-3353-46aa-8925-f972fac116f7]Notify connected event to listeners.
+2022-08-26 20:08:38,327 [INFO] [d107e6d9-3353-46aa-8925-f972fac116f7]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+2022-08-26 20:08:38,327 [INFO] Grpc connection connect
+2022-08-26 20:08:38,348 [INFO] init new ips(0) service: DEFAULT_GROUP@@albumservice@@SH -> []
+2022-08-26 20:08:38,353 [INFO] current ips:(0) service: DEFAULT_GROUP@@albumservice@@SH -> []
+2022-08-26 20:08:38,364 [INFO] Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-26 20:08:38,367 [INFO] [REGISTER-SERVICE] public registering service albumservice with instance Instance{instanceId='null', ip='192.168.1.115', port=8083, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='SH', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2022-08-26 20:08:38,377 [INFO] nacos registry, DEFAULT_GROUP albumservice 192.168.1.115:8083 register finished
+2022-08-26 20:08:38,553 [INFO] Started AlbumApplication in 3.71 seconds (JVM running for 4.284)
+2022-08-26 20:08:38,556 [INFO] [config_rpc_client] [subscribe] albumservice.yaml+DEFAULT_GROUP
+2022-08-26 20:08:38,557 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=albumservice.yaml, group=DEFAULT_GROUP, cnt=1
+2022-08-26 20:08:38,557 [INFO] [config_rpc_client] [subscribe] albumservice-dev.yaml+DEFAULT_GROUP
+2022-08-26 20:08:38,557 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=albumservice-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2022-08-26 20:08:38,557 [INFO] [config_rpc_client] [subscribe] albumservice+DEFAULT_GROUP
+2022-08-26 20:08:38,557 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=albumservice, group=DEFAULT_GROUP, cnt=1
+2022-08-26 20:08:38,895 [INFO] [d107e6d9-3353-46aa-8925-f972fac116f7]receive server push request,request=NotifySubscriberRequest,requestId=125
+2022-08-26 20:08:38,896 [INFO] init new ips(1) service: DEFAULT_GROUP@@albumservice -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@albumservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-08-26 20:08:38,896 [INFO] current ips:(1) service: DEFAULT_GROUP@@albumservice -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@albumservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-08-26 20:08:38,897 [INFO] [d107e6d9-3353-46aa-8925-f972fac116f7]ack server push request,request=NotifySubscriberRequest,requestId=125
+2022-08-26 20:08:39,350 [INFO] new ips(1) service: DEFAULT_GROUP@@albumservice@@SH -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@albumservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-08-26 20:08:39,350 [INFO] current ips:(1) service: DEFAULT_GROUP@@albumservice@@SH -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@albumservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-08-26 20:10:35,320 [INFO] Reflections took 21 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-08-26 20:10:35,340 [INFO] Reflections took 10 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-08-26 20:10:35,352 [INFO] Reflections took 10 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-08-26 20:10:35,430 [INFO] Reflections took 76 ms to scan 126 urls, producing 0 keys and 0 values 
+2022-08-26 20:10:35,440 [INFO] Reflections took 9 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-08-26 20:10:35,452 [INFO] Reflections took 10 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-08-26 20:10:35,461 [INFO] Reflections took 7 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-08-26 20:10:35,523 [INFO] Reflections took 61 ms to scan 126 urls, producing 0 keys and 0 values 
+2022-08-26 20:10:36,463 [WARN] Ignore the empty nacos configuration and get it based on dataId[albumservice] & group[DEFAULT_GROUP]
+2022-08-26 20:10:36,473 [WARN] Ignore the empty nacos configuration and get it based on dataId[albumservice.yaml] & group[DEFAULT_GROUP]
+2022-08-26 20:10:36,487 [INFO] Located property source: [BootstrapPropertySource {name='bootstrapProperties-albumservice-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-albumservice.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-albumservice,DEFAULT_GROUP'}]
+2022-08-26 20:10:36,517 [INFO] The following profiles are active: dev
+2022-08-26 20:10:36,855 [INFO] BeanFactory id=ade522bd-8634-3dac-9a8c-2a37a488dd8e
+2022-08-26 20:10:36,996 [INFO] Tomcat initialized with port(s): 8083 (http)
+2022-08-26 20:10:37,002 [INFO] Starting service [Tomcat]
+2022-08-26 20:10:37,002 [INFO] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-08-26 20:10:37,066 [INFO] Initializing Spring embedded WebApplicationContext
+2022-08-26 20:10:37,066 [INFO] Root WebApplicationContext: initialization completed in 541 ms
+2022-08-26 20:10:37,189 [INFO] For 'userservice' URL not provided. Will try picking an instance via load-balancing.
+2022-08-26 20:10:37,497 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:10:37,498 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:10:37,501 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:10:37,501 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:10:37,564 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-26 20:10:37,821 [INFO] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 20:10:38,094 [INFO] initializer namespace from System Property : null
+2022-08-26 20:10:38,094 [INFO] initializer namespace from System Environment :null
+2022-08-26 20:10:38,095 [INFO] initializer namespace from System Property :null
+2022-08-26 20:10:38,107 [INFO] [RpcClientFactory] create a new rpc client of 807068c3-a977-4210-8abc-c54de62a0e4c
+2022-08-26 20:10:38,107 [INFO] [807068c3-a977-4210-8abc-c54de62a0e4c]RpcClient init label, labels={module=naming, source=sdk}
+2022-08-26 20:10:38,108 [INFO] [807068c3-a977-4210-8abc-c54de62a0e4c]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+2022-08-26 20:10:38,108 [INFO] [807068c3-a977-4210-8abc-c54de62a0e4c]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2022-08-26 20:10:38,108 [INFO] [807068c3-a977-4210-8abc-c54de62a0e4c]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2022-08-26 20:10:38,109 [INFO] [807068c3-a977-4210-8abc-c54de62a0e4c] Try to connect to server on start up, server: {serverIp='1.116.137.46', server main port=8848}
+2022-08-26 20:10:38,236 [INFO] [807068c3-a977-4210-8abc-c54de62a0e4c] Success to connect to server [1.116.137.46:8848] on start up,connectionId=1661515838625_211.161.248.48_49192
+2022-08-26 20:10:38,236 [INFO] [807068c3-a977-4210-8abc-c54de62a0e4c]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2022-08-26 20:10:38,236 [INFO] [807068c3-a977-4210-8abc-c54de62a0e4c]Notify connected event to listeners.
+2022-08-26 20:10:38,236 [INFO] [807068c3-a977-4210-8abc-c54de62a0e4c]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+2022-08-26 20:10:38,236 [INFO] Grpc connection connect
+2022-08-26 20:10:38,256 [INFO] init new ips(0) service: DEFAULT_GROUP@@albumservice@@SH -> []
+2022-08-26 20:10:38,264 [INFO] current ips:(0) service: DEFAULT_GROUP@@albumservice@@SH -> []
+2022-08-26 20:10:38,278 [INFO] Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-26 20:10:38,281 [INFO] [REGISTER-SERVICE] public registering service albumservice with instance Instance{instanceId='null', ip='192.168.1.115', port=8083, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='SH', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2022-08-26 20:10:38,291 [INFO] nacos registry, DEFAULT_GROUP albumservice 192.168.1.115:8083 register finished
+2022-08-26 20:10:38,467 [INFO] Started AlbumApplication in 4.05 seconds (JVM running for 5.181)
+2022-08-26 20:10:38,470 [INFO] [config_rpc_client] [subscribe] albumservice.yaml+DEFAULT_GROUP
+2022-08-26 20:10:38,471 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=albumservice.yaml, group=DEFAULT_GROUP, cnt=1
+2022-08-26 20:10:38,471 [INFO] [config_rpc_client] [subscribe] albumservice-dev.yaml+DEFAULT_GROUP
+2022-08-26 20:10:38,472 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=albumservice-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2022-08-26 20:10:38,472 [INFO] [config_rpc_client] [subscribe] albumservice+DEFAULT_GROUP
+2022-08-26 20:10:38,472 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=albumservice, group=DEFAULT_GROUP, cnt=1
+2022-08-26 20:10:38,812 [INFO] [807068c3-a977-4210-8abc-c54de62a0e4c]receive server push request,request=NotifySubscriberRequest,requestId=126
+2022-08-26 20:10:38,814 [INFO] init new ips(1) service: DEFAULT_GROUP@@albumservice -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@albumservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2022-08-26 20:10:38,815 [INFO] current ips:(1) service: DEFAULT_GROUP@@albumservice -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@albumservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2022-08-26 20:10:38,816 [INFO] [807068c3-a977-4210-8abc-c54de62a0e4c]ack server push request,request=NotifySubscriberRequest,requestId=126
+2022-08-26 20:10:39,252 [INFO] new ips(1) service: DEFAULT_GROUP@@albumservice@@SH -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@albumservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2022-08-26 20:10:39,253 [INFO] current ips:(1) service: DEFAULT_GROUP@@albumservice@@SH -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@albumservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2022-08-26 20:11:30,011 [WARN] [HttpClientBeanHolder] Start destroying common HttpClient
+2022-08-26 20:11:30,011 [WARN] [NotifyCenter] Start destroying Publisher
+2022-08-26 20:11:30,011 [WARN] [NotifyCenter] Destruction of the end
+2022-08-26 20:11:30,011 [WARN] [HttpClientBeanHolder] Destruction of the end
+2022-08-26 20:11:30,158 [INFO] Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 20:11:30,167 [INFO] De-registering from Nacos Server now...
+2022-08-26 20:11:30,168 [INFO] [DEREGISTER-SERVICE] public deregistering service albumservice with instance: Instance{instanceId='null', ip='192.168.1.115', port=8083, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='SH', serviceName='null', metadata={}}
+2022-08-26 20:11:30,175 [INFO] De-registration finished.
+2022-08-26 20:11:30,176 [INFO] com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2022-08-26 20:11:30,176 [INFO] com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-08-26 20:11:30,176 [INFO] com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-08-26 20:11:30,176 [INFO] com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2022-08-26 20:11:30,176 [INFO] com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2022-08-26 20:11:30,176 [INFO] com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2022-08-26 20:11:30,511 [INFO] com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2022-08-26 20:11:30,511 [INFO] com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2022-08-26 20:11:30,511 [WARN] [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-08-26 20:11:30,511 [WARN] [NamingHttpClientManager] Destruction of the end
+2022-08-26 20:11:30,511 [INFO] com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2022-08-26 20:11:30,512 [INFO] com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2022-08-26 20:11:30,512 [INFO] com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-08-26 20:11:30,512 [INFO] com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-08-26 20:11:30,512 [WARN] [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-08-26 20:11:30,512 [WARN] [NamingHttpClientManager] Destruction of the end
+2022-08-26 20:11:30,512 [INFO] [null] CredentialWatcher is stopped
+2022-08-26 20:11:30,512 [INFO] [null] CredentialService is freed
+2022-08-26 20:11:30,512 [INFO] com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2022-08-26 20:11:30,512 [INFO] Shutdown rpc client ,set status to shutdown
+2022-08-26 20:11:30,512 [INFO] Shutdown  client event executor java.util.concurrent.ScheduledThreadPoolExecutor@29e48c0e[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2022-08-26 20:11:30,512 [INFO] Close current connection 1661515838625_211.161.248.48_49192
+2022-08-26 20:11:30,516 [INFO] Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@5a4ede63[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 20]
+2022-08-26 20:11:30,516 [INFO] Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@3a1a9b1a[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 17]
+2022-08-26 20:11:30,517 [INFO] com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2022-08-26 20:11:30,517 [INFO] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-26 20:11:34,213 [INFO] Reflections took 20 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-08-26 20:11:34,232 [INFO] Reflections took 9 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-08-26 20:11:34,245 [INFO] Reflections took 11 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-08-26 20:11:34,322 [INFO] Reflections took 74 ms to scan 126 urls, producing 0 keys and 0 values 
+2022-08-26 20:11:34,332 [INFO] Reflections took 10 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-08-26 20:11:34,343 [INFO] Reflections took 8 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-08-26 20:11:34,352 [INFO] Reflections took 7 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-08-26 20:11:34,412 [INFO] Reflections took 59 ms to scan 126 urls, producing 0 keys and 0 values 
+2022-08-26 20:11:35,328 [WARN] Ignore the empty nacos configuration and get it based on dataId[albumservice] & group[DEFAULT_GROUP]
+2022-08-26 20:11:35,335 [WARN] Ignore the empty nacos configuration and get it based on dataId[albumservice.yaml] & group[DEFAULT_GROUP]
+2022-08-26 20:11:35,346 [INFO] Located property source: [BootstrapPropertySource {name='bootstrapProperties-albumservice-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-albumservice.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-albumservice,DEFAULT_GROUP'}]
+2022-08-26 20:11:35,375 [INFO] The following profiles are active: dev
+2022-08-26 20:11:35,712 [INFO] BeanFactory id=ade522bd-8634-3dac-9a8c-2a37a488dd8e
+2022-08-26 20:11:35,853 [INFO] Tomcat initialized with port(s): 8083 (http)
+2022-08-26 20:11:35,858 [INFO] Starting service [Tomcat]
+2022-08-26 20:11:35,858 [INFO] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-08-26 20:11:35,923 [INFO] Initializing Spring embedded WebApplicationContext
+2022-08-26 20:11:35,924 [INFO] Root WebApplicationContext: initialization completed in 540 ms
+2022-08-26 20:11:36,020 [INFO] For 'userservice' URL not provided. Will try picking an instance via load-balancing.
+2022-08-26 20:11:36,310 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:11:36,311 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:11:36,313 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:11:36,313 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:11:36,370 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-26 20:11:36,608 [INFO] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 20:11:36,848 [INFO] initializer namespace from System Property : null
+2022-08-26 20:11:36,849 [INFO] initializer namespace from System Environment :null
+2022-08-26 20:11:36,849 [INFO] initializer namespace from System Property :null
+2022-08-26 20:11:36,860 [INFO] [RpcClientFactory] create a new rpc client of 9a79c5ec-393c-473b-af4b-bc6d2bf20110
+2022-08-26 20:11:36,860 [INFO] [9a79c5ec-393c-473b-af4b-bc6d2bf20110]RpcClient init label, labels={module=naming, source=sdk}
+2022-08-26 20:11:36,861 [INFO] [9a79c5ec-393c-473b-af4b-bc6d2bf20110]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+2022-08-26 20:11:36,861 [INFO] [9a79c5ec-393c-473b-af4b-bc6d2bf20110]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2022-08-26 20:11:36,862 [INFO] [9a79c5ec-393c-473b-af4b-bc6d2bf20110]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2022-08-26 20:11:36,862 [INFO] [9a79c5ec-393c-473b-af4b-bc6d2bf20110] Try to connect to server on start up, server: {serverIp='1.116.137.46', server main port=8848}
+2022-08-26 20:11:36,995 [INFO] [9a79c5ec-393c-473b-af4b-bc6d2bf20110] Success to connect to server [1.116.137.46:8848] on start up,connectionId=1661515897381_211.161.248.48_49298
+2022-08-26 20:11:36,995 [INFO] [9a79c5ec-393c-473b-af4b-bc6d2bf20110]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2022-08-26 20:11:36,995 [INFO] [9a79c5ec-393c-473b-af4b-bc6d2bf20110]Notify connected event to listeners.
+2022-08-26 20:11:36,995 [INFO] Grpc connection connect
+2022-08-26 20:11:36,995 [INFO] [9a79c5ec-393c-473b-af4b-bc6d2bf20110]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+2022-08-26 20:11:37,020 [INFO] init new ips(0) service: DEFAULT_GROUP@@albumservice@@SH -> []
+2022-08-26 20:11:37,028 [INFO] current ips:(0) service: DEFAULT_GROUP@@albumservice@@SH -> []
+2022-08-26 20:11:37,045 [INFO] Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-26 20:11:37,051 [INFO] [REGISTER-SERVICE] public registering service albumservice with instance Instance{instanceId='null', ip='192.168.1.115', port=8083, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='SH', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2022-08-26 20:11:37,064 [INFO] nacos registry, DEFAULT_GROUP albumservice 192.168.1.115:8083 register finished
+2022-08-26 20:11:37,249 [INFO] Started AlbumApplication in 3.906 seconds (JVM running for 4.561)
+2022-08-26 20:11:37,252 [INFO] [config_rpc_client] [subscribe] albumservice.yaml+DEFAULT_GROUP
+2022-08-26 20:11:37,253 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=albumservice.yaml, group=DEFAULT_GROUP, cnt=1
+2022-08-26 20:11:37,254 [INFO] [config_rpc_client] [subscribe] albumservice-dev.yaml+DEFAULT_GROUP
+2022-08-26 20:11:37,254 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=albumservice-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2022-08-26 20:11:37,254 [INFO] [config_rpc_client] [subscribe] albumservice+DEFAULT_GROUP
+2022-08-26 20:11:37,255 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=albumservice, group=DEFAULT_GROUP, cnt=1
+2022-08-26 20:11:37,567 [INFO] [9a79c5ec-393c-473b-af4b-bc6d2bf20110]receive server push request,request=NotifySubscriberRequest,requestId=127
+2022-08-26 20:11:37,568 [INFO] init new ips(1) service: DEFAULT_GROUP@@albumservice -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@albumservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-08-26 20:11:37,568 [INFO] current ips:(1) service: DEFAULT_GROUP@@albumservice -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@albumservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-08-26 20:11:37,569 [INFO] [9a79c5ec-393c-473b-af4b-bc6d2bf20110]ack server push request,request=NotifySubscriberRequest,requestId=127
+2022-08-26 20:11:38,014 [INFO] new ips(1) service: DEFAULT_GROUP@@albumservice@@SH -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@albumservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-08-26 20:11:38,014 [INFO] current ips:(1) service: DEFAULT_GROUP@@albumservice@@SH -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@albumservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-08-26 20:12:45,935 [WARN] [HttpClientBeanHolder] Start destroying common HttpClient
+2022-08-26 20:12:45,935 [WARN] [NotifyCenter] Start destroying Publisher
+2022-08-26 20:12:45,935 [WARN] [NotifyCenter] Destruction of the end
+2022-08-26 20:12:45,936 [WARN] [HttpClientBeanHolder] Destruction of the end
+2022-08-26 20:12:46,100 [INFO] Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 20:12:46,111 [INFO] De-registering from Nacos Server now...
+2022-08-26 20:12:46,112 [INFO] [DEREGISTER-SERVICE] public deregistering service albumservice with instance: Instance{instanceId='null', ip='192.168.1.115', port=8083, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='SH', serviceName='null', metadata={}}
+2022-08-26 20:12:46,119 [INFO] De-registration finished.
+2022-08-26 20:12:46,120 [INFO] com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2022-08-26 20:12:46,120 [INFO] com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-08-26 20:12:46,120 [INFO] com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-08-26 20:12:46,120 [INFO] com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2022-08-26 20:12:46,120 [INFO] com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2022-08-26 20:12:46,120 [INFO] com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2022-08-26 20:12:46,457 [INFO] com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2022-08-26 20:12:46,457 [INFO] com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2022-08-26 20:12:46,457 [WARN] [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-08-26 20:12:46,458 [WARN] [NamingHttpClientManager] Destruction of the end
+2022-08-26 20:12:46,458 [INFO] com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2022-08-26 20:12:46,458 [INFO] com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2022-08-26 20:12:46,458 [INFO] com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-08-26 20:12:46,458 [INFO] com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-08-26 20:12:46,458 [WARN] [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-08-26 20:12:46,458 [WARN] [NamingHttpClientManager] Destruction of the end
+2022-08-26 20:12:46,459 [INFO] [null] CredentialWatcher is stopped
+2022-08-26 20:12:46,459 [INFO] [null] CredentialService is freed
+2022-08-26 20:12:46,459 [INFO] com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2022-08-26 20:12:46,459 [INFO] Shutdown rpc client ,set status to shutdown
+2022-08-26 20:12:46,459 [INFO] Shutdown  client event executor java.util.concurrent.ScheduledThreadPoolExecutor@7168a181[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2022-08-26 20:12:46,459 [INFO] Close current connection 1661515897381_211.161.248.48_49298
+2022-08-26 20:12:46,463 [INFO] Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@714973d9[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 22]
+2022-08-26 20:12:46,463 [INFO] Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@4332eb7b[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 23]
+2022-08-26 20:12:46,463 [INFO] com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2022-08-26 20:12:46,464 [INFO] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-26 20:12:50,060 [INFO] Reflections took 19 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-08-26 20:12:50,078 [INFO] Reflections took 9 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-08-26 20:12:50,087 [INFO] Reflections took 8 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-08-26 20:12:50,163 [INFO] Reflections took 74 ms to scan 125 urls, producing 0 keys and 0 values 
+2022-08-26 20:12:50,171 [INFO] Reflections took 8 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-08-26 20:12:50,182 [INFO] Reflections took 9 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-08-26 20:12:50,193 [INFO] Reflections took 9 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-08-26 20:12:50,253 [INFO] Reflections took 59 ms to scan 125 urls, producing 0 keys and 0 values 
+2022-08-26 20:12:51,157 [WARN] Ignore the empty nacos configuration and get it based on dataId[albumservice] & group[DEFAULT_GROUP]
+2022-08-26 20:12:51,166 [WARN] Ignore the empty nacos configuration and get it based on dataId[albumservice.yaml] & group[DEFAULT_GROUP]
+2022-08-26 20:12:51,178 [INFO] Located property source: [BootstrapPropertySource {name='bootstrapProperties-albumservice-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-albumservice.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-albumservice,DEFAULT_GROUP'}]
+2022-08-26 20:12:51,205 [INFO] The following profiles are active: dev
+2022-08-26 20:12:51,508 [INFO] BeanFactory id=b63af773-12bb-374f-ae1a-ab05b2acced6
+2022-08-26 20:12:51,626 [INFO] Tomcat initialized with port(s): 8083 (http)
+2022-08-26 20:12:51,631 [INFO] Starting service [Tomcat]
+2022-08-26 20:12:51,631 [INFO] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-08-26 20:12:51,691 [INFO] Initializing Spring embedded WebApplicationContext
+2022-08-26 20:12:51,691 [INFO] Root WebApplicationContext: initialization completed in 479 ms
+2022-08-26 20:12:51,774 [INFO] For 'userservice' URL not provided. Will try picking an instance via load-balancing.
+2022-08-26 20:12:52,050 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:12:52,050 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:12:52,052 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:12:52,052 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:12:52,101 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-26 20:12:52,327 [INFO] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 20:12:52,550 [INFO] initializer namespace from System Property : null
+2022-08-26 20:12:52,550 [INFO] initializer namespace from System Environment :null
+2022-08-26 20:12:52,550 [INFO] initializer namespace from System Property :null
+2022-08-26 20:12:52,559 [INFO] [RpcClientFactory] create a new rpc client of 1b53b709-1aac-4dd9-b4b7-bd8c876cc462
+2022-08-26 20:12:52,559 [INFO] [1b53b709-1aac-4dd9-b4b7-bd8c876cc462]RpcClient init label, labels={module=naming, source=sdk}
+2022-08-26 20:12:52,560 [INFO] [1b53b709-1aac-4dd9-b4b7-bd8c876cc462]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+2022-08-26 20:12:52,560 [INFO] [1b53b709-1aac-4dd9-b4b7-bd8c876cc462]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2022-08-26 20:12:52,560 [INFO] [1b53b709-1aac-4dd9-b4b7-bd8c876cc462]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2022-08-26 20:12:52,560 [INFO] [1b53b709-1aac-4dd9-b4b7-bd8c876cc462] Try to connect to server on start up, server: {serverIp='1.116.137.46', server main port=8848}
+2022-08-26 20:12:52,691 [INFO] [1b53b709-1aac-4dd9-b4b7-bd8c876cc462] Success to connect to server [1.116.137.46:8848] on start up,connectionId=1661515973076_211.161.248.48_49680
+2022-08-26 20:12:52,691 [INFO] [1b53b709-1aac-4dd9-b4b7-bd8c876cc462]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2022-08-26 20:12:52,691 [INFO] [1b53b709-1aac-4dd9-b4b7-bd8c876cc462]Notify connected event to listeners.
+2022-08-26 20:12:52,691 [INFO] [1b53b709-1aac-4dd9-b4b7-bd8c876cc462]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+2022-08-26 20:12:52,691 [INFO] Grpc connection connect
+2022-08-26 20:12:52,709 [INFO] init new ips(0) service: DEFAULT_GROUP@@albumservice@@SH -> []
+2022-08-26 20:12:52,714 [INFO] current ips:(0) service: DEFAULT_GROUP@@albumservice@@SH -> []
+2022-08-26 20:12:52,724 [INFO] Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-26 20:12:52,726 [INFO] [REGISTER-SERVICE] public registering service albumservice with instance Instance{instanceId='null', ip='192.168.1.115', port=8083, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='SH', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2022-08-26 20:12:52,736 [INFO] nacos registry, DEFAULT_GROUP albumservice 192.168.1.115:8083 register finished
+2022-08-26 20:12:52,910 [INFO] Started AlbumApplication in 3.661 seconds (JVM running for 4.221)
+2022-08-26 20:12:52,913 [INFO] [config_rpc_client] [subscribe] albumservice.yaml+DEFAULT_GROUP
+2022-08-26 20:12:52,913 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=albumservice.yaml, group=DEFAULT_GROUP, cnt=1
+2022-08-26 20:12:52,914 [INFO] [config_rpc_client] [subscribe] albumservice-dev.yaml+DEFAULT_GROUP
+2022-08-26 20:12:52,914 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=albumservice-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2022-08-26 20:12:52,914 [INFO] [config_rpc_client] [subscribe] albumservice+DEFAULT_GROUP
+2022-08-26 20:12:52,914 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=albumservice, group=DEFAULT_GROUP, cnt=1
+2022-08-26 20:12:53,229 [INFO] [1b53b709-1aac-4dd9-b4b7-bd8c876cc462]receive server push request,request=NotifySubscriberRequest,requestId=128
+2022-08-26 20:12:53,230 [INFO] init new ips(1) service: DEFAULT_GROUP@@albumservice -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@albumservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-08-26 20:12:53,230 [INFO] current ips:(1) service: DEFAULT_GROUP@@albumservice -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@albumservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-08-26 20:12:53,231 [INFO] [1b53b709-1aac-4dd9-b4b7-bd8c876cc462]ack server push request,request=NotifySubscriberRequest,requestId=128
+2022-08-26 20:12:53,711 [INFO] new ips(1) service: DEFAULT_GROUP@@albumservice@@SH -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@albumservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-08-26 20:12:53,711 [INFO] current ips:(1) service: DEFAULT_GROUP@@albumservice@@SH -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@albumservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-08-26 20:13:59,721 [INFO] Reflections took 19 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-08-26 20:13:59,738 [INFO] Reflections took 9 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-08-26 20:13:59,748 [INFO] Reflections took 8 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-08-26 20:13:59,824 [INFO] Reflections took 74 ms to scan 124 urls, producing 0 keys and 0 values 
+2022-08-26 20:13:59,833 [INFO] Reflections took 8 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-08-26 20:13:59,843 [INFO] Reflections took 9 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-08-26 20:13:59,854 [INFO] Reflections took 8 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-08-26 20:13:59,914 [INFO] Reflections took 59 ms to scan 124 urls, producing 0 keys and 0 values 
+2022-08-26 20:14:00,772 [WARN] Ignore the empty nacos configuration and get it based on dataId[feignservice] & group[DEFAULT_GROUP]
+2022-08-26 20:14:00,783 [WARN] Ignore the empty nacos configuration and get it based on dataId[feignservice.yaml] & group[DEFAULT_GROUP]
+2022-08-26 20:14:00,797 [INFO] Located property source: [BootstrapPropertySource {name='bootstrapProperties-feignservice-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-feignservice.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-feignservice,DEFAULT_GROUP'}]
+2022-08-26 20:14:01,128 [INFO] BeanFactory id=47c7c02f-8b2a-376a-8b13-598ea2c055e7
+2022-08-26 20:14:01,244 [INFO] Tomcat initialized with port(s): 8083 (http)
+2022-08-26 20:14:01,249 [INFO] Starting service [Tomcat]
+2022-08-26 20:14:01,249 [INFO] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-08-26 20:14:01,311 [INFO] Initializing Spring embedded WebApplicationContext
+2022-08-26 20:14:01,312 [INFO] Root WebApplicationContext: initialization completed in 480 ms
+2022-08-26 20:14:01,400 [INFO] For 'userservice' URL not provided. Will try picking an instance via load-balancing.
+2022-08-26 20:14:01,674 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:14:01,675 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:14:01,676 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:14:01,677 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:14:01,726 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-26 20:14:01,950 [INFO] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 20:14:02,171 [INFO] initializer namespace from System Property : null
+2022-08-26 20:14:02,172 [INFO] initializer namespace from System Environment :null
+2022-08-26 20:14:02,172 [INFO] initializer namespace from System Property :null
+2022-08-26 20:14:02,180 [INFO] [RpcClientFactory] create a new rpc client of 1f98596c-41d3-442f-b7a1-d22215ded11d
+2022-08-26 20:14:02,180 [INFO] [1f98596c-41d3-442f-b7a1-d22215ded11d]RpcClient init label, labels={module=naming, source=sdk}
+2022-08-26 20:14:02,181 [INFO] [1f98596c-41d3-442f-b7a1-d22215ded11d]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+2022-08-26 20:14:02,181 [INFO] [1f98596c-41d3-442f-b7a1-d22215ded11d]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2022-08-26 20:14:02,182 [INFO] [1f98596c-41d3-442f-b7a1-d22215ded11d]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2022-08-26 20:14:02,182 [INFO] [1f98596c-41d3-442f-b7a1-d22215ded11d] Try to connect to server on start up, server: {serverIp='1.116.137.46', server main port=8848}
+2022-08-26 20:14:02,307 [INFO] [1f98596c-41d3-442f-b7a1-d22215ded11d] Success to connect to server [1.116.137.46:8848] on start up,connectionId=1661516042700_211.161.248.48_49816
+2022-08-26 20:14:02,307 [INFO] [1f98596c-41d3-442f-b7a1-d22215ded11d]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2022-08-26 20:14:02,307 [INFO] [1f98596c-41d3-442f-b7a1-d22215ded11d]Notify connected event to listeners.
+2022-08-26 20:14:02,307 [INFO] [1f98596c-41d3-442f-b7a1-d22215ded11d]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+2022-08-26 20:14:02,307 [INFO] Grpc connection connect
+2022-08-26 20:14:02,329 [INFO] init new ips(0) service: DEFAULT_GROUP@@feignservice@@SH -> []
+2022-08-26 20:14:02,334 [INFO] current ips:(0) service: DEFAULT_GROUP@@feignservice@@SH -> []
+2022-08-26 20:14:02,339 [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8083 is already in use
+2022-08-26 20:14:02,340 [INFO] com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2022-08-26 20:14:02,340 [INFO] com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-08-26 20:14:02,665 [INFO] com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-08-26 20:14:02,666 [INFO] com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2022-08-26 20:14:02,666 [INFO] com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2022-08-26 20:14:02,666 [INFO] com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2022-08-26 20:14:02,895 [INFO] [1f98596c-41d3-442f-b7a1-d22215ded11d]receive server push request,request=NotifySubscriberRequest,requestId=129
+2022-08-26 20:14:02,896 [INFO] init new ips(0) service: DEFAULT_GROUP@@feignservice -> []
+2022-08-26 20:14:02,896 [INFO] current ips:(0) service: DEFAULT_GROUP@@feignservice -> []
+2022-08-26 20:14:02,897 [INFO] [1f98596c-41d3-442f-b7a1-d22215ded11d]ack server push request,request=NotifySubscriberRequest,requestId=129
+2022-08-26 20:14:02,993 [INFO] com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2022-08-26 20:14:02,993 [INFO] com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2022-08-26 20:14:02,994 [WARN] [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-08-26 20:14:02,994 [WARN] [NamingHttpClientManager] Destruction of the end
+2022-08-26 20:14:02,994 [INFO] com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2022-08-26 20:14:02,994 [INFO] com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2022-08-26 20:14:02,994 [INFO] com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-08-26 20:14:02,994 [INFO] com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-08-26 20:14:02,994 [WARN] [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-08-26 20:14:02,994 [WARN] [NamingHttpClientManager] Destruction of the end
+2022-08-26 20:14:02,995 [INFO] [null] CredentialWatcher is stopped
+2022-08-26 20:14:02,995 [INFO] [null] CredentialService is freed
+2022-08-26 20:14:02,995 [INFO] com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2022-08-26 20:14:02,995 [INFO] Shutdown rpc client ,set status to shutdown
+2022-08-26 20:14:02,995 [INFO] Shutdown  client event executor java.util.concurrent.ScheduledThreadPoolExecutor@315c081[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2022-08-26 20:14:02,995 [INFO] Close current connection 1661516042700_211.161.248.48_49816
+2022-08-26 20:14:02,998 [INFO] Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@6d6ac396[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 5]
+2022-08-26 20:14:02,998 [INFO] Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@432af457[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 0]
+2022-08-26 20:14:02,998 [INFO] com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2022-08-26 20:14:02,998 [INFO] Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 20:14:02,998 [INFO] initializer namespace from System Property : null
+2022-08-26 20:14:02,998 [INFO] initializer namespace from System Environment :null
+2022-08-26 20:14:02,998 [INFO] initializer namespace from System Property :null
+2022-08-26 20:14:02,999 [INFO] [RpcClientFactory] create a new rpc client of e2e0ab54-9d65-4116-beee-43a83963811d
+2022-08-26 20:14:02,999 [INFO] [e2e0ab54-9d65-4116-beee-43a83963811d]RpcClient init label, labels={module=naming, source=sdk}
+2022-08-26 20:14:02,999 [INFO] [e2e0ab54-9d65-4116-beee-43a83963811d]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+2022-08-26 20:14:02,999 [INFO] [e2e0ab54-9d65-4116-beee-43a83963811d]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2022-08-26 20:14:03,000 [INFO] [e2e0ab54-9d65-4116-beee-43a83963811d]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2022-08-26 20:14:03,000 [INFO] [e2e0ab54-9d65-4116-beee-43a83963811d] Try to connect to server on start up, server: {serverIp='1.116.137.46', server main port=8848}
+2022-08-26 20:14:03,002 [INFO] Received trailers on closed stream:
+ Metadata()
+ {2}
+2022-08-26 20:14:03,133 [INFO] [e2e0ab54-9d65-4116-beee-43a83963811d] Success to connect to server [1.116.137.46:8848] on start up,connectionId=1661516043516_211.161.248.48_49819
+2022-08-26 20:14:03,133 [INFO] [e2e0ab54-9d65-4116-beee-43a83963811d]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2022-08-26 20:14:03,133 [INFO] [e2e0ab54-9d65-4116-beee-43a83963811d]Notify connected event to listeners.
+2022-08-26 20:14:03,133 [INFO] [e2e0ab54-9d65-4116-beee-43a83963811d]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+2022-08-26 20:14:03,133 [INFO] Grpc connection connect
+2022-08-26 20:14:03,134 [INFO] null No credential found
+2022-08-26 20:14:03,143 [INFO] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-26 20:14:03,146 [INFO] Stopping service [Tomcat]
+2022-08-26 20:14:03,152 [INFO] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-08-26 20:14:03,160 [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8083 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8083 or configure this application to listen on another port.
+
+2022-08-26 20:14:03,161 [WARN] [HttpClientBeanHolder] Start destroying common HttpClient
+2022-08-26 20:14:03,161 [WARN] [NotifyCenter] Start destroying Publisher
+2022-08-26 20:14:03,161 [WARN] [NotifyCenter] Destruction of the end
+2022-08-26 20:14:03,162 [WARN] [HttpClientBeanHolder] Destruction of the end
+2022-08-26 20:14:27,637 [INFO] Reflections took 18 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-08-26 20:14:27,654 [INFO] Reflections took 9 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-08-26 20:14:27,664 [INFO] Reflections took 8 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-08-26 20:14:27,739 [INFO] Reflections took 73 ms to scan 124 urls, producing 0 keys and 0 values 
+2022-08-26 20:14:27,748 [INFO] Reflections took 8 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-08-26 20:14:27,760 [INFO] Reflections took 10 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-08-26 20:14:27,770 [INFO] Reflections took 7 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-08-26 20:14:27,831 [INFO] Reflections took 60 ms to scan 124 urls, producing 0 keys and 0 values 
+2022-08-26 20:14:28,714 [WARN] Ignore the empty nacos configuration and get it based on dataId[feignservice] & group[DEFAULT_GROUP]
+2022-08-26 20:14:28,725 [WARN] Ignore the empty nacos configuration and get it based on dataId[feignservice.yaml] & group[DEFAULT_GROUP]
+2022-08-26 20:14:28,738 [INFO] Located property source: [BootstrapPropertySource {name='bootstrapProperties-feignservice-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-feignservice.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-feignservice,DEFAULT_GROUP'}]
+2022-08-26 20:14:29,083 [INFO] BeanFactory id=47c7c02f-8b2a-376a-8b13-598ea2c055e7
+2022-08-26 20:14:29,206 [INFO] Tomcat initialized with port(s): 8083 (http)
+2022-08-26 20:14:29,212 [INFO] Starting service [Tomcat]
+2022-08-26 20:14:29,212 [INFO] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-08-26 20:14:29,273 [INFO] Initializing Spring embedded WebApplicationContext
+2022-08-26 20:14:29,274 [INFO] Root WebApplicationContext: initialization completed in 502 ms
+2022-08-26 20:14:29,360 [INFO] For 'userservice' URL not provided. Will try picking an instance via load-balancing.
+2022-08-26 20:14:29,635 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:14:29,635 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:14:29,637 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:14:29,637 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:14:29,689 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-26 20:14:29,920 [INFO] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 20:14:30,144 [INFO] initializer namespace from System Property : null
+2022-08-26 20:14:30,144 [INFO] initializer namespace from System Environment :null
+2022-08-26 20:14:30,144 [INFO] initializer namespace from System Property :null
+2022-08-26 20:14:30,153 [INFO] [RpcClientFactory] create a new rpc client of 36389c5d-db06-4b15-b64a-59845b8a0616
+2022-08-26 20:14:30,153 [INFO] [36389c5d-db06-4b15-b64a-59845b8a0616]RpcClient init label, labels={module=naming, source=sdk}
+2022-08-26 20:14:30,154 [INFO] [36389c5d-db06-4b15-b64a-59845b8a0616]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+2022-08-26 20:14:30,154 [INFO] [36389c5d-db06-4b15-b64a-59845b8a0616]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2022-08-26 20:14:30,154 [INFO] [36389c5d-db06-4b15-b64a-59845b8a0616]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2022-08-26 20:14:30,155 [INFO] [36389c5d-db06-4b15-b64a-59845b8a0616] Try to connect to server on start up, server: {serverIp='1.116.137.46', server main port=8848}
+2022-08-26 20:14:30,284 [INFO] [36389c5d-db06-4b15-b64a-59845b8a0616] Success to connect to server [1.116.137.46:8848] on start up,connectionId=1661516070674_211.161.248.48_49975
+2022-08-26 20:14:30,284 [INFO] [36389c5d-db06-4b15-b64a-59845b8a0616]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2022-08-26 20:14:30,284 [INFO] [36389c5d-db06-4b15-b64a-59845b8a0616]Notify connected event to listeners.
+2022-08-26 20:14:30,284 [INFO] [36389c5d-db06-4b15-b64a-59845b8a0616]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+2022-08-26 20:14:30,284 [INFO] Grpc connection connect
+2022-08-26 20:14:30,304 [INFO] init new ips(0) service: DEFAULT_GROUP@@feignservice@@SH -> []
+2022-08-26 20:14:30,309 [INFO] current ips:(0) service: DEFAULT_GROUP@@feignservice@@SH -> []
+2022-08-26 20:14:30,316 [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8083 is already in use
+2022-08-26 20:14:30,316 [INFO] com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2022-08-26 20:14:30,317 [INFO] com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-08-26 20:14:30,645 [INFO] com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-08-26 20:14:30,645 [INFO] com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2022-08-26 20:14:30,645 [INFO] com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2022-08-26 20:14:30,645 [INFO] com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2022-08-26 20:14:30,822 [INFO] [36389c5d-db06-4b15-b64a-59845b8a0616]receive server push request,request=NotifySubscriberRequest,requestId=131
+2022-08-26 20:14:30,822 [INFO] init new ips(0) service: DEFAULT_GROUP@@feignservice -> []
+2022-08-26 20:14:30,822 [INFO] current ips:(0) service: DEFAULT_GROUP@@feignservice -> []
+2022-08-26 20:14:30,823 [INFO] [36389c5d-db06-4b15-b64a-59845b8a0616]ack server push request,request=NotifySubscriberRequest,requestId=131
+2022-08-26 20:14:30,968 [INFO] com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2022-08-26 20:14:30,968 [INFO] com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2022-08-26 20:14:30,968 [WARN] [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-08-26 20:14:30,968 [WARN] [NamingHttpClientManager] Destruction of the end
+2022-08-26 20:14:30,968 [INFO] com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2022-08-26 20:14:30,968 [INFO] com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2022-08-26 20:14:30,969 [INFO] com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-08-26 20:14:30,969 [INFO] com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-08-26 20:14:30,969 [WARN] [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-08-26 20:14:30,969 [WARN] [NamingHttpClientManager] Destruction of the end
+2022-08-26 20:14:30,969 [INFO] [null] CredentialWatcher is stopped
+2022-08-26 20:14:30,969 [INFO] [null] CredentialService is freed
+2022-08-26 20:14:30,969 [INFO] com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2022-08-26 20:14:30,969 [INFO] Shutdown rpc client ,set status to shutdown
+2022-08-26 20:14:30,969 [INFO] Shutdown  client event executor java.util.concurrent.ScheduledThreadPoolExecutor@6b2dd3df[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2022-08-26 20:14:30,969 [INFO] Close current connection 1661516070674_211.161.248.48_49975
+2022-08-26 20:14:30,972 [INFO] Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@432af457[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 5]
+2022-08-26 20:14:30,972 [INFO] Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@f5a7226[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 0]
+2022-08-26 20:14:30,972 [INFO] com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2022-08-26 20:14:30,972 [INFO] Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 20:14:30,972 [INFO] initializer namespace from System Property : null
+2022-08-26 20:14:30,973 [INFO] initializer namespace from System Environment :null
+2022-08-26 20:14:30,973 [INFO] initializer namespace from System Property :null
+2022-08-26 20:14:30,973 [INFO] [RpcClientFactory] create a new rpc client of 9c1117d8-97f3-4cd2-8bea-41125b88e82a
+2022-08-26 20:14:30,973 [INFO] [9c1117d8-97f3-4cd2-8bea-41125b88e82a]RpcClient init label, labels={module=naming, source=sdk}
+2022-08-26 20:14:30,974 [INFO] [9c1117d8-97f3-4cd2-8bea-41125b88e82a]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+2022-08-26 20:14:30,974 [INFO] [9c1117d8-97f3-4cd2-8bea-41125b88e82a]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2022-08-26 20:14:30,974 [INFO] [9c1117d8-97f3-4cd2-8bea-41125b88e82a]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2022-08-26 20:14:30,974 [INFO] [9c1117d8-97f3-4cd2-8bea-41125b88e82a] Try to connect to server on start up, server: {serverIp='1.116.137.46', server main port=8848}
+2022-08-26 20:14:30,976 [INFO] Received trailers on closed stream:
+ Metadata()
+ {2}
+2022-08-26 20:14:31,110 [INFO] [9c1117d8-97f3-4cd2-8bea-41125b88e82a] Success to connect to server [1.116.137.46:8848] on start up,connectionId=1661516071490_211.161.248.48_49978
+2022-08-26 20:14:31,110 [INFO] [9c1117d8-97f3-4cd2-8bea-41125b88e82a]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2022-08-26 20:14:31,110 [INFO] [9c1117d8-97f3-4cd2-8bea-41125b88e82a]Notify connected event to listeners.
+2022-08-26 20:14:31,110 [INFO] [9c1117d8-97f3-4cd2-8bea-41125b88e82a]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+2022-08-26 20:14:31,110 [INFO] Grpc connection connect
+2022-08-26 20:14:31,111 [INFO] null No credential found
+2022-08-26 20:14:31,119 [INFO] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-26 20:14:31,123 [INFO] Stopping service [Tomcat]
+2022-08-26 20:14:31,129 [INFO] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-08-26 20:14:31,137 [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8083 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8083 or configure this application to listen on another port.
+
+2022-08-26 20:14:31,138 [WARN] [HttpClientBeanHolder] Start destroying common HttpClient
+2022-08-26 20:14:31,138 [WARN] [NotifyCenter] Start destroying Publisher
+2022-08-26 20:14:31,138 [WARN] [NotifyCenter] Destruction of the end
+2022-08-26 20:14:31,139 [WARN] [HttpClientBeanHolder] Destruction of the end
+2022-08-26 20:16:04,730 [INFO] Reflections took 19 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-08-26 20:16:04,747 [INFO] Reflections took 9 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-08-26 20:16:04,756 [INFO] Reflections took 8 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-08-26 20:16:04,831 [INFO] Reflections took 73 ms to scan 124 urls, producing 0 keys and 0 values 
+2022-08-26 20:16:04,839 [INFO] Reflections took 7 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-08-26 20:16:04,850 [INFO] Reflections took 9 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-08-26 20:16:04,860 [INFO] Reflections took 9 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-08-26 20:16:04,919 [INFO] Reflections took 57 ms to scan 124 urls, producing 0 keys and 0 values 
+2022-08-26 20:16:05,777 [WARN] Ignore the empty nacos configuration and get it based on dataId[feignservice] & group[DEFAULT_GROUP]
+2022-08-26 20:16:05,787 [WARN] Ignore the empty nacos configuration and get it based on dataId[feignservice.yaml] & group[DEFAULT_GROUP]
+2022-08-26 20:16:05,802 [INFO] Located property source: [BootstrapPropertySource {name='bootstrapProperties-feignservice-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-feignservice.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-feignservice,DEFAULT_GROUP'}]
+2022-08-26 20:16:06,118 [INFO] BeanFactory id=47c7c02f-8b2a-376a-8b13-598ea2c055e7
+2022-08-26 20:16:06,236 [INFO] Tomcat initialized with port(s): 8083 (http)
+2022-08-26 20:16:06,241 [INFO] Starting service [Tomcat]
+2022-08-26 20:16:06,241 [INFO] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-08-26 20:16:06,300 [INFO] Initializing Spring embedded WebApplicationContext
+2022-08-26 20:16:06,300 [INFO] Root WebApplicationContext: initialization completed in 465 ms
+2022-08-26 20:16:06,383 [INFO] For 'userservice' URL not provided. Will try picking an instance via load-balancing.
+2022-08-26 20:16:06,651 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:16:06,652 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:16:06,653 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:16:06,654 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:16:06,701 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-26 20:16:06,930 [INFO] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 20:16:07,152 [INFO] initializer namespace from System Property : null
+2022-08-26 20:16:07,153 [INFO] initializer namespace from System Environment :null
+2022-08-26 20:16:07,153 [INFO] initializer namespace from System Property :null
+2022-08-26 20:16:07,161 [INFO] [RpcClientFactory] create a new rpc client of 191c9145-5f6c-4b63-ab46-5f8cb8c81196
+2022-08-26 20:16:07,162 [INFO] [191c9145-5f6c-4b63-ab46-5f8cb8c81196]RpcClient init label, labels={module=naming, source=sdk}
+2022-08-26 20:16:07,162 [INFO] [191c9145-5f6c-4b63-ab46-5f8cb8c81196]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+2022-08-26 20:16:07,162 [INFO] [191c9145-5f6c-4b63-ab46-5f8cb8c81196]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2022-08-26 20:16:07,163 [INFO] [191c9145-5f6c-4b63-ab46-5f8cb8c81196]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2022-08-26 20:16:07,163 [INFO] [191c9145-5f6c-4b63-ab46-5f8cb8c81196] Try to connect to server on start up, server: {serverIp='1.116.137.46', server main port=8848}
+2022-08-26 20:16:07,298 [INFO] [191c9145-5f6c-4b63-ab46-5f8cb8c81196] Success to connect to server [1.116.137.46:8848] on start up,connectionId=1661516167681_211.161.248.48_50070
+2022-08-26 20:16:07,298 [INFO] [191c9145-5f6c-4b63-ab46-5f8cb8c81196]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2022-08-26 20:16:07,298 [INFO] [191c9145-5f6c-4b63-ab46-5f8cb8c81196]Notify connected event to listeners.
+2022-08-26 20:16:07,298 [INFO] [191c9145-5f6c-4b63-ab46-5f8cb8c81196]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+2022-08-26 20:16:07,298 [INFO] Grpc connection connect
+2022-08-26 20:16:07,316 [INFO] init new ips(0) service: DEFAULT_GROUP@@feignservice@@SH -> []
+2022-08-26 20:16:07,321 [INFO] current ips:(0) service: DEFAULT_GROUP@@feignservice@@SH -> []
+2022-08-26 20:16:07,326 [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8083 is already in use
+2022-08-26 20:16:07,327 [INFO] com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2022-08-26 20:16:07,327 [INFO] com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-08-26 20:16:07,655 [INFO] com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-08-26 20:16:07,655 [INFO] com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2022-08-26 20:16:07,655 [INFO] com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2022-08-26 20:16:07,655 [INFO] com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2022-08-26 20:16:07,907 [INFO] [191c9145-5f6c-4b63-ab46-5f8cb8c81196]receive server push request,request=NotifySubscriberRequest,requestId=132
+2022-08-26 20:16:07,907 [INFO] init new ips(0) service: DEFAULT_GROUP@@feignservice -> []
+2022-08-26 20:16:07,907 [INFO] current ips:(0) service: DEFAULT_GROUP@@feignservice -> []
+2022-08-26 20:16:07,908 [INFO] [191c9145-5f6c-4b63-ab46-5f8cb8c81196]ack server push request,request=NotifySubscriberRequest,requestId=132
+2022-08-26 20:16:07,981 [INFO] com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2022-08-26 20:16:07,981 [INFO] com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2022-08-26 20:16:07,981 [WARN] [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-08-26 20:16:07,981 [WARN] [NamingHttpClientManager] Destruction of the end
+2022-08-26 20:16:07,982 [INFO] com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2022-08-26 20:16:07,982 [INFO] com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2022-08-26 20:16:07,982 [INFO] com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-08-26 20:16:07,982 [INFO] com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-08-26 20:16:07,982 [WARN] [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-08-26 20:16:07,982 [WARN] [NamingHttpClientManager] Destruction of the end
+2022-08-26 20:16:07,982 [INFO] [null] CredentialWatcher is stopped
+2022-08-26 20:16:07,982 [INFO] [null] CredentialService is freed
+2022-08-26 20:16:07,982 [INFO] com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2022-08-26 20:16:07,982 [INFO] Shutdown rpc client ,set status to shutdown
+2022-08-26 20:16:07,983 [INFO] Shutdown  client event executor java.util.concurrent.ScheduledThreadPoolExecutor@6b2dd3df[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2022-08-26 20:16:07,983 [INFO] Close current connection 1661516167681_211.161.248.48_50070
+2022-08-26 20:16:07,986 [INFO] Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@432af457[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 5]
+2022-08-26 20:16:07,986 [INFO] Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@f5a7226[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 0]
+2022-08-26 20:16:07,986 [INFO] com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2022-08-26 20:16:07,986 [INFO] Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 20:16:07,987 [INFO] initializer namespace from System Property : null
+2022-08-26 20:16:07,987 [INFO] initializer namespace from System Environment :null
+2022-08-26 20:16:07,987 [INFO] initializer namespace from System Property :null
+2022-08-26 20:16:07,987 [INFO] [RpcClientFactory] create a new rpc client of e11b6005-ed98-4b7b-a1d7-d982e60706fc
+2022-08-26 20:16:07,987 [INFO] [e11b6005-ed98-4b7b-a1d7-d982e60706fc]RpcClient init label, labels={module=naming, source=sdk}
+2022-08-26 20:16:07,988 [INFO] [e11b6005-ed98-4b7b-a1d7-d982e60706fc]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+2022-08-26 20:16:07,988 [INFO] [e11b6005-ed98-4b7b-a1d7-d982e60706fc]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2022-08-26 20:16:07,988 [INFO] [e11b6005-ed98-4b7b-a1d7-d982e60706fc]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2022-08-26 20:16:07,988 [INFO] [e11b6005-ed98-4b7b-a1d7-d982e60706fc] Try to connect to server on start up, server: {serverIp='1.116.137.46', server main port=8848}
+2022-08-26 20:16:07,989 [INFO] Received trailers on closed stream:
+ Metadata()
+ {2}
+2022-08-26 20:16:08,122 [INFO] [e11b6005-ed98-4b7b-a1d7-d982e60706fc] Success to connect to server [1.116.137.46:8848] on start up,connectionId=1661516168504_211.161.248.48_50074
+2022-08-26 20:16:08,122 [INFO] [e11b6005-ed98-4b7b-a1d7-d982e60706fc]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2022-08-26 20:16:08,122 [INFO] [e11b6005-ed98-4b7b-a1d7-d982e60706fc]Notify connected event to listeners.
+2022-08-26 20:16:08,122 [INFO] [e11b6005-ed98-4b7b-a1d7-d982e60706fc]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+2022-08-26 20:16:08,122 [INFO] Grpc connection connect
+2022-08-26 20:16:08,123 [INFO] null No credential found
+2022-08-26 20:16:08,132 [INFO] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-26 20:16:08,135 [INFO] Stopping service [Tomcat]
+2022-08-26 20:16:08,142 [INFO] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-08-26 20:16:08,150 [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8083 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8083 or configure this application to listen on another port.
+
+2022-08-26 20:16:08,151 [WARN] [HttpClientBeanHolder] Start destroying common HttpClient
+2022-08-26 20:16:08,151 [WARN] [NotifyCenter] Start destroying Publisher
+2022-08-26 20:16:08,151 [WARN] [NotifyCenter] Destruction of the end
+2022-08-26 20:16:08,152 [WARN] [HttpClientBeanHolder] Destruction of the end
+2022-08-26 20:16:43,036 [INFO] Reflections took 18 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-08-26 20:16:43,053 [INFO] Reflections took 9 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-08-26 20:16:43,062 [INFO] Reflections took 7 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-08-26 20:16:43,137 [INFO] Reflections took 73 ms to scan 124 urls, producing 0 keys and 0 values 
+2022-08-26 20:16:43,145 [INFO] Reflections took 8 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-08-26 20:16:43,155 [INFO] Reflections took 9 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-08-26 20:16:43,165 [INFO] Reflections took 6 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-08-26 20:16:43,223 [INFO] Reflections took 56 ms to scan 124 urls, producing 0 keys and 0 values 
+2022-08-26 20:16:44,079 [WARN] Ignore the empty nacos configuration and get it based on dataId[feignservice] & group[DEFAULT_GROUP]
+2022-08-26 20:16:44,089 [WARN] Ignore the empty nacos configuration and get it based on dataId[feignservice.yaml] & group[DEFAULT_GROUP]
+2022-08-26 20:16:44,101 [INFO] Located property source: [BootstrapPropertySource {name='bootstrapProperties-feignservice-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-feignservice.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-feignservice,DEFAULT_GROUP'}]
+2022-08-26 20:16:44,414 [INFO] BeanFactory id=47c7c02f-8b2a-376a-8b13-598ea2c055e7
+2022-08-26 20:16:44,529 [INFO] Tomcat initialized with port(s): 8084 (http)
+2022-08-26 20:16:44,534 [INFO] Starting service [Tomcat]
+2022-08-26 20:16:44,534 [INFO] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-08-26 20:16:44,592 [INFO] Initializing Spring embedded WebApplicationContext
+2022-08-26 20:16:44,593 [INFO] Root WebApplicationContext: initialization completed in 458 ms
+2022-08-26 20:16:44,675 [INFO] For 'userservice' URL not provided. Will try picking an instance via load-balancing.
+2022-08-26 20:16:44,942 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:16:44,942 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:16:44,944 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:16:44,944 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:16:44,993 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-26 20:16:45,216 [INFO] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 20:16:45,436 [INFO] initializer namespace from System Property : null
+2022-08-26 20:16:45,436 [INFO] initializer namespace from System Environment :null
+2022-08-26 20:16:45,436 [INFO] initializer namespace from System Property :null
+2022-08-26 20:16:45,445 [INFO] [RpcClientFactory] create a new rpc client of 9fafebbe-33fb-4010-b33b-43a303cb97d1
+2022-08-26 20:16:45,445 [INFO] [9fafebbe-33fb-4010-b33b-43a303cb97d1]RpcClient init label, labels={module=naming, source=sdk}
+2022-08-26 20:16:45,446 [INFO] [9fafebbe-33fb-4010-b33b-43a303cb97d1]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+2022-08-26 20:16:45,446 [INFO] [9fafebbe-33fb-4010-b33b-43a303cb97d1]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2022-08-26 20:16:45,446 [INFO] [9fafebbe-33fb-4010-b33b-43a303cb97d1]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2022-08-26 20:16:45,446 [INFO] [9fafebbe-33fb-4010-b33b-43a303cb97d1] Try to connect to server on start up, server: {serverIp='1.116.137.46', server main port=8848}
+2022-08-26 20:16:45,575 [INFO] [9fafebbe-33fb-4010-b33b-43a303cb97d1] Success to connect to server [1.116.137.46:8848] on start up,connectionId=1661516205966_211.161.248.48_50152
+2022-08-26 20:16:45,575 [INFO] [9fafebbe-33fb-4010-b33b-43a303cb97d1]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2022-08-26 20:16:45,575 [INFO] [9fafebbe-33fb-4010-b33b-43a303cb97d1]Notify connected event to listeners.
+2022-08-26 20:16:45,575 [INFO] [9fafebbe-33fb-4010-b33b-43a303cb97d1]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+2022-08-26 20:16:45,575 [INFO] Grpc connection connect
+2022-08-26 20:16:45,594 [INFO] init new ips(0) service: DEFAULT_GROUP@@feignservice@@SH -> []
+2022-08-26 20:16:45,599 [INFO] current ips:(0) service: DEFAULT_GROUP@@feignservice@@SH -> []
+2022-08-26 20:16:45,610 [INFO] Tomcat started on port(s): 8084 (http) with context path ''
+2022-08-26 20:16:45,612 [INFO] [REGISTER-SERVICE] public registering service feignservice with instance Instance{instanceId='null', ip='192.168.1.115', port=8084, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='SH', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2022-08-26 20:16:45,624 [INFO] nacos registry, DEFAULT_GROUP feignservice 192.168.1.115:8084 register finished
+2022-08-26 20:16:45,800 [INFO] [config_rpc_client] [subscribe] feignservice-dev.yaml+DEFAULT_GROUP
+2022-08-26 20:16:45,801 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=feignservice-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2022-08-26 20:16:45,801 [INFO] [config_rpc_client] [subscribe] feignservice+DEFAULT_GROUP
+2022-08-26 20:16:45,801 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=feignservice, group=DEFAULT_GROUP, cnt=1
+2022-08-26 20:16:45,801 [INFO] [config_rpc_client] [subscribe] feignservice.yaml+DEFAULT_GROUP
+2022-08-26 20:16:45,801 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=feignservice.yaml, group=DEFAULT_GROUP, cnt=1
+2022-08-26 20:16:46,140 [INFO] [9fafebbe-33fb-4010-b33b-43a303cb97d1]receive server push request,request=NotifySubscriberRequest,requestId=133
+2022-08-26 20:16:46,141 [INFO] init new ips(1) service: DEFAULT_GROUP@@feignservice -> [{"ip":"192.168.1.115","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@feignservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2022-08-26 20:16:46,141 [INFO] current ips:(1) service: DEFAULT_GROUP@@feignservice -> [{"ip":"192.168.1.115","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@feignservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2022-08-26 20:16:46,142 [INFO] [9fafebbe-33fb-4010-b33b-43a303cb97d1]ack server push request,request=NotifySubscriberRequest,requestId=133
+2022-08-26 20:16:46,602 [INFO] new ips(1) service: DEFAULT_GROUP@@feignservice@@SH -> [{"ip":"192.168.1.115","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@feignservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2022-08-26 20:16:46,602 [INFO] current ips:(1) service: DEFAULT_GROUP@@feignservice@@SH -> [{"ip":"192.168.1.115","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@feignservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2022-08-26 20:17:44,914 [INFO] Reflections took 20 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-08-26 20:17:44,932 [INFO] Reflections took 9 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-08-26 20:17:44,941 [INFO] Reflections took 7 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-08-26 20:17:45,017 [INFO] Reflections took 72 ms to scan 125 urls, producing 0 keys and 0 values 
+2022-08-26 20:17:45,025 [INFO] Reflections took 8 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-08-26 20:17:45,036 [INFO] Reflections took 9 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-08-26 20:17:45,046 [INFO] Reflections took 8 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-08-26 20:17:45,106 [INFO] Reflections took 59 ms to scan 125 urls, producing 0 keys and 0 values 
+2022-08-26 20:17:45,963 [WARN] Ignore the empty nacos configuration and get it based on dataId[albumservice] & group[DEFAULT_GROUP]
+2022-08-26 20:17:45,976 [WARN] Ignore the empty nacos configuration and get it based on dataId[albumservice.yaml] & group[DEFAULT_GROUP]
+2022-08-26 20:17:45,990 [INFO] Located property source: [BootstrapPropertySource {name='bootstrapProperties-albumservice-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-albumservice.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-albumservice,DEFAULT_GROUP'}]
+2022-08-26 20:17:46,016 [INFO] The following profiles are active: dev
+2022-08-26 20:17:46,309 [INFO] BeanFactory id=ade522bd-8634-3dac-9a8c-2a37a488dd8e
+2022-08-26 20:17:46,425 [INFO] Tomcat initialized with port(s): 8084 (http)
+2022-08-26 20:17:46,430 [INFO] Starting service [Tomcat]
+2022-08-26 20:17:46,430 [INFO] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-08-26 20:17:46,489 [INFO] Initializing Spring embedded WebApplicationContext
+2022-08-26 20:17:46,489 [INFO] Root WebApplicationContext: initialization completed in 466 ms
+2022-08-26 20:17:46,569 [INFO] For 'userservice' URL not provided. Will try picking an instance via load-balancing.
+2022-08-26 20:17:46,840 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:17:46,841 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:17:46,842 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:17:46,843 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:17:46,891 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-26 20:17:47,115 [INFO] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 20:17:47,335 [INFO] initializer namespace from System Property : null
+2022-08-26 20:17:47,336 [INFO] initializer namespace from System Environment :null
+2022-08-26 20:17:47,336 [INFO] initializer namespace from System Property :null
+2022-08-26 20:17:47,344 [INFO] [RpcClientFactory] create a new rpc client of 8b00ac1a-8d28-42ac-a097-c0639ae53a79
+2022-08-26 20:17:47,344 [INFO] [8b00ac1a-8d28-42ac-a097-c0639ae53a79]RpcClient init label, labels={module=naming, source=sdk}
+2022-08-26 20:17:47,345 [INFO] [8b00ac1a-8d28-42ac-a097-c0639ae53a79]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+2022-08-26 20:17:47,345 [INFO] [8b00ac1a-8d28-42ac-a097-c0639ae53a79]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2022-08-26 20:17:47,345 [INFO] [8b00ac1a-8d28-42ac-a097-c0639ae53a79]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2022-08-26 20:17:47,346 [INFO] [8b00ac1a-8d28-42ac-a097-c0639ae53a79] Try to connect to server on start up, server: {serverIp='1.116.137.46', server main port=8848}
+2022-08-26 20:17:47,474 [INFO] [8b00ac1a-8d28-42ac-a097-c0639ae53a79] Success to connect to server [1.116.137.46:8848] on start up,connectionId=1661516267863_211.161.248.48_50250
+2022-08-26 20:17:47,474 [INFO] [8b00ac1a-8d28-42ac-a097-c0639ae53a79]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2022-08-26 20:17:47,474 [INFO] [8b00ac1a-8d28-42ac-a097-c0639ae53a79]Notify connected event to listeners.
+2022-08-26 20:17:47,474 [INFO] [8b00ac1a-8d28-42ac-a097-c0639ae53a79]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+2022-08-26 20:17:47,474 [INFO] Grpc connection connect
+2022-08-26 20:17:47,494 [INFO] init new ips(0) service: DEFAULT_GROUP@@albumservice@@SH -> []
+2022-08-26 20:17:47,499 [INFO] current ips:(0) service: DEFAULT_GROUP@@albumservice@@SH -> []
+2022-08-26 20:17:47,505 [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8084 is already in use
+2022-08-26 20:17:47,505 [INFO] com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2022-08-26 20:17:47,505 [INFO] com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-08-26 20:17:47,835 [INFO] com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-08-26 20:17:47,835 [INFO] com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2022-08-26 20:17:47,835 [INFO] com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2022-08-26 20:17:47,835 [INFO] com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2022-08-26 20:17:48,092 [INFO] [8b00ac1a-8d28-42ac-a097-c0639ae53a79]receive server push request,request=NotifySubscriberRequest,requestId=134
+2022-08-26 20:17:48,092 [INFO] init new ips(0) service: DEFAULT_GROUP@@albumservice -> []
+2022-08-26 20:17:48,092 [INFO] current ips:(0) service: DEFAULT_GROUP@@albumservice -> []
+2022-08-26 20:17:48,093 [INFO] [8b00ac1a-8d28-42ac-a097-c0639ae53a79]ack server push request,request=NotifySubscriberRequest,requestId=134
+2022-08-26 20:17:48,163 [INFO] com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2022-08-26 20:17:48,163 [INFO] com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2022-08-26 20:17:48,163 [WARN] [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-08-26 20:17:48,163 [WARN] [NamingHttpClientManager] Destruction of the end
+2022-08-26 20:17:48,163 [INFO] com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2022-08-26 20:17:48,163 [INFO] com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2022-08-26 20:17:48,163 [INFO] com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-08-26 20:17:48,164 [INFO] com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-08-26 20:17:48,164 [WARN] [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-08-26 20:17:48,164 [WARN] [NamingHttpClientManager] Destruction of the end
+2022-08-26 20:17:48,164 [INFO] [null] CredentialWatcher is stopped
+2022-08-26 20:17:48,164 [INFO] [null] CredentialService is freed
+2022-08-26 20:17:48,164 [INFO] com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2022-08-26 20:17:48,164 [INFO] Shutdown rpc client ,set status to shutdown
+2022-08-26 20:17:48,164 [INFO] Shutdown  client event executor java.util.concurrent.ScheduledThreadPoolExecutor@6909f6be[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2022-08-26 20:17:48,164 [INFO] Close current connection 1661516267863_211.161.248.48_50250
+2022-08-26 20:17:48,166 [INFO] Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@202d9236[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 5]
+2022-08-26 20:17:48,167 [INFO] Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@1f782c05[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 0]
+2022-08-26 20:17:48,167 [INFO] com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2022-08-26 20:17:48,167 [INFO] Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 20:17:48,167 [INFO] initializer namespace from System Property : null
+2022-08-26 20:17:48,167 [INFO] initializer namespace from System Environment :null
+2022-08-26 20:17:48,167 [INFO] initializer namespace from System Property :null
+2022-08-26 20:17:48,168 [INFO] [RpcClientFactory] create a new rpc client of ff542cca-8772-43df-9e44-e07afc418618
+2022-08-26 20:17:48,168 [INFO] [ff542cca-8772-43df-9e44-e07afc418618]RpcClient init label, labels={module=naming, source=sdk}
+2022-08-26 20:17:48,168 [INFO] [ff542cca-8772-43df-9e44-e07afc418618]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+2022-08-26 20:17:48,168 [INFO] [ff542cca-8772-43df-9e44-e07afc418618]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2022-08-26 20:17:48,168 [INFO] [ff542cca-8772-43df-9e44-e07afc418618]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2022-08-26 20:17:48,169 [INFO] [ff542cca-8772-43df-9e44-e07afc418618] Try to connect to server on start up, server: {serverIp='1.116.137.46', server main port=8848}
+2022-08-26 20:17:48,172 [INFO] Received trailers on closed stream:
+ Metadata()
+ {2}
+2022-08-26 20:17:48,304 [INFO] [ff542cca-8772-43df-9e44-e07afc418618] Success to connect to server [1.116.137.46:8848] on start up,connectionId=1661516268688_211.161.248.48_50254
+2022-08-26 20:17:48,304 [INFO] [ff542cca-8772-43df-9e44-e07afc418618]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2022-08-26 20:17:48,304 [INFO] [ff542cca-8772-43df-9e44-e07afc418618]Notify connected event to listeners.
+2022-08-26 20:17:48,304 [INFO] [ff542cca-8772-43df-9e44-e07afc418618]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+2022-08-26 20:17:48,304 [INFO] Grpc connection connect
+2022-08-26 20:17:48,305 [INFO] null No credential found
+2022-08-26 20:17:48,314 [INFO] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-26 20:17:48,317 [INFO] Stopping service [Tomcat]
+2022-08-26 20:17:48,323 [INFO] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-08-26 20:17:48,332 [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8084 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8084 or configure this application to listen on another port.
+
+2022-08-26 20:17:48,333 [WARN] [HttpClientBeanHolder] Start destroying common HttpClient
+2022-08-26 20:17:48,333 [WARN] [NotifyCenter] Start destroying Publisher
+2022-08-26 20:17:48,333 [WARN] [NotifyCenter] Destruction of the end
+2022-08-26 20:17:48,333 [WARN] [HttpClientBeanHolder] Destruction of the end
+2022-08-26 20:18:45,313 [INFO] Reflections took 18 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-08-26 20:18:45,330 [INFO] Reflections took 9 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-08-26 20:18:45,340 [INFO] Reflections took 8 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-08-26 20:18:45,415 [INFO] Reflections took 71 ms to scan 125 urls, producing 0 keys and 0 values 
+2022-08-26 20:18:45,423 [INFO] Reflections took 7 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-08-26 20:18:45,434 [INFO] Reflections took 9 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-08-26 20:18:45,444 [INFO] Reflections took 8 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-08-26 20:18:45,503 [INFO] Reflections took 57 ms to scan 125 urls, producing 0 keys and 0 values 
+2022-08-26 20:18:46,345 [WARN] Ignore the empty nacos configuration and get it based on dataId[albumservice] & group[DEFAULT_GROUP]
+2022-08-26 20:18:46,354 [WARN] Ignore the empty nacos configuration and get it based on dataId[albumservice.yaml] & group[DEFAULT_GROUP]
+2022-08-26 20:18:46,365 [INFO] Located property source: [BootstrapPropertySource {name='bootstrapProperties-albumservice-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-albumservice.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-albumservice,DEFAULT_GROUP'}]
+2022-08-26 20:18:46,392 [INFO] The following profiles are active: dev
+2022-08-26 20:18:46,704 [INFO] BeanFactory id=ade522bd-8634-3dac-9a8c-2a37a488dd8e
+2022-08-26 20:18:46,821 [INFO] Tomcat initialized with port(s): 8084 (http)
+2022-08-26 20:18:46,826 [INFO] Starting service [Tomcat]
+2022-08-26 20:18:46,826 [INFO] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-08-26 20:18:46,885 [INFO] Initializing Spring embedded WebApplicationContext
+2022-08-26 20:18:46,885 [INFO] Root WebApplicationContext: initialization completed in 485 ms
+2022-08-26 20:18:46,969 [INFO] For 'userservice' URL not provided. Will try picking an instance via load-balancing.
+2022-08-26 20:18:47,246 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:18:47,246 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:18:47,248 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:18:47,248 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:18:47,297 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-26 20:18:47,520 [INFO] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 20:18:47,740 [INFO] initializer namespace from System Property : null
+2022-08-26 20:18:47,740 [INFO] initializer namespace from System Environment :null
+2022-08-26 20:18:47,741 [INFO] initializer namespace from System Property :null
+2022-08-26 20:18:47,749 [INFO] [RpcClientFactory] create a new rpc client of 4063286d-2130-4208-a210-3f50d73b74c3
+2022-08-26 20:18:47,749 [INFO] [4063286d-2130-4208-a210-3f50d73b74c3]RpcClient init label, labels={module=naming, source=sdk}
+2022-08-26 20:18:47,750 [INFO] [4063286d-2130-4208-a210-3f50d73b74c3]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+2022-08-26 20:18:47,750 [INFO] [4063286d-2130-4208-a210-3f50d73b74c3]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2022-08-26 20:18:47,750 [INFO] [4063286d-2130-4208-a210-3f50d73b74c3]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2022-08-26 20:18:47,751 [INFO] [4063286d-2130-4208-a210-3f50d73b74c3] Try to connect to server on start up, server: {serverIp='1.116.137.46', server main port=8848}
+2022-08-26 20:18:47,887 [INFO] [4063286d-2130-4208-a210-3f50d73b74c3] Success to connect to server [1.116.137.46:8848] on start up,connectionId=1661516328271_211.161.248.48_50338
+2022-08-26 20:18:47,887 [INFO] [4063286d-2130-4208-a210-3f50d73b74c3]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2022-08-26 20:18:47,887 [INFO] [4063286d-2130-4208-a210-3f50d73b74c3]Notify connected event to listeners.
+2022-08-26 20:18:47,887 [INFO] [4063286d-2130-4208-a210-3f50d73b74c3]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+2022-08-26 20:18:47,888 [INFO] Grpc connection connect
+2022-08-26 20:18:47,907 [INFO] init new ips(0) service: DEFAULT_GROUP@@albumservice@@SH -> []
+2022-08-26 20:18:47,913 [INFO] current ips:(0) service: DEFAULT_GROUP@@albumservice@@SH -> []
+2022-08-26 20:18:47,918 [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8084 is already in use
+2022-08-26 20:18:47,918 [INFO] com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2022-08-26 20:18:47,918 [INFO] com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-08-26 20:18:48,246 [INFO] com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-08-26 20:18:48,246 [INFO] com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2022-08-26 20:18:48,246 [INFO] com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2022-08-26 20:18:48,246 [INFO] com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2022-08-26 20:18:48,460 [INFO] [4063286d-2130-4208-a210-3f50d73b74c3]receive server push request,request=NotifySubscriberRequest,requestId=135
+2022-08-26 20:18:48,460 [INFO] init new ips(0) service: DEFAULT_GROUP@@albumservice -> []
+2022-08-26 20:18:48,460 [INFO] current ips:(0) service: DEFAULT_GROUP@@albumservice -> []
+2022-08-26 20:18:48,461 [INFO] [4063286d-2130-4208-a210-3f50d73b74c3]ack server push request,request=NotifySubscriberRequest,requestId=135
+2022-08-26 20:18:48,574 [INFO] com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2022-08-26 20:18:48,574 [INFO] com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2022-08-26 20:18:48,574 [WARN] [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-08-26 20:18:48,574 [WARN] [NamingHttpClientManager] Destruction of the end
+2022-08-26 20:18:48,574 [INFO] com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2022-08-26 20:18:48,575 [INFO] com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2022-08-26 20:18:48,575 [INFO] com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-08-26 20:18:48,575 [INFO] com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-08-26 20:18:48,575 [WARN] [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-08-26 20:18:48,575 [WARN] [NamingHttpClientManager] Destruction of the end
+2022-08-26 20:18:48,575 [INFO] [null] CredentialWatcher is stopped
+2022-08-26 20:18:48,575 [INFO] [null] CredentialService is freed
+2022-08-26 20:18:48,575 [INFO] com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2022-08-26 20:18:48,575 [INFO] Shutdown rpc client ,set status to shutdown
+2022-08-26 20:18:48,576 [INFO] Shutdown  client event executor java.util.concurrent.ScheduledThreadPoolExecutor@310b2b6f[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2022-08-26 20:18:48,576 [INFO] Close current connection 1661516328271_211.161.248.48_50338
+2022-08-26 20:18:48,579 [INFO] Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@764b14b8[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 5]
+2022-08-26 20:18:48,579 [INFO] Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@202d9236[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 0]
+2022-08-26 20:18:48,579 [INFO] com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2022-08-26 20:18:48,579 [INFO] Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 20:18:48,579 [INFO] initializer namespace from System Property : null
+2022-08-26 20:18:48,579 [INFO] initializer namespace from System Environment :null
+2022-08-26 20:18:48,580 [INFO] initializer namespace from System Property :null
+2022-08-26 20:18:48,580 [INFO] [RpcClientFactory] create a new rpc client of b0f2f286-6fff-4dc4-b8eb-12b6a475977a
+2022-08-26 20:18:48,580 [INFO] [b0f2f286-6fff-4dc4-b8eb-12b6a475977a]RpcClient init label, labels={module=naming, source=sdk}
+2022-08-26 20:18:48,580 [INFO] [b0f2f286-6fff-4dc4-b8eb-12b6a475977a]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+2022-08-26 20:18:48,580 [INFO] [b0f2f286-6fff-4dc4-b8eb-12b6a475977a]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2022-08-26 20:18:48,581 [INFO] [b0f2f286-6fff-4dc4-b8eb-12b6a475977a]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2022-08-26 20:18:48,581 [INFO] [b0f2f286-6fff-4dc4-b8eb-12b6a475977a] Try to connect to server on start up, server: {serverIp='1.116.137.46', server main port=8848}
+2022-08-26 20:18:48,584 [INFO] Received trailers on closed stream:
+ Metadata()
+ {2}
+2022-08-26 20:18:48,712 [INFO] [b0f2f286-6fff-4dc4-b8eb-12b6a475977a] Success to connect to server [1.116.137.46:8848] on start up,connectionId=1661516329100_211.161.248.48_50341
+2022-08-26 20:18:48,712 [INFO] [b0f2f286-6fff-4dc4-b8eb-12b6a475977a]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2022-08-26 20:18:48,712 [INFO] [b0f2f286-6fff-4dc4-b8eb-12b6a475977a]Notify connected event to listeners.
+2022-08-26 20:18:48,712 [INFO] [b0f2f286-6fff-4dc4-b8eb-12b6a475977a]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+2022-08-26 20:18:48,712 [INFO] Grpc connection connect
+2022-08-26 20:18:48,713 [INFO] null No credential found
+2022-08-26 20:18:48,723 [INFO] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-26 20:18:48,726 [INFO] Stopping service [Tomcat]
+2022-08-26 20:18:48,733 [INFO] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-08-26 20:18:48,741 [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8084 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8084 or configure this application to listen on another port.
+
+2022-08-26 20:18:48,742 [WARN] [HttpClientBeanHolder] Start destroying common HttpClient
+2022-08-26 20:18:48,742 [WARN] [NotifyCenter] Start destroying Publisher
+2022-08-26 20:18:48,742 [WARN] [NotifyCenter] Destruction of the end
+2022-08-26 20:18:48,742 [WARN] [HttpClientBeanHolder] Destruction of the end
+2022-08-26 20:19:36,276 [INFO] Reflections took 19 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-08-26 20:19:36,294 [INFO] Reflections took 10 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-08-26 20:19:36,304 [INFO] Reflections took 8 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-08-26 20:19:36,385 [INFO] Reflections took 79 ms to scan 125 urls, producing 0 keys and 0 values 
+2022-08-26 20:19:36,394 [INFO] Reflections took 9 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-08-26 20:19:36,406 [INFO] Reflections took 10 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-08-26 20:19:36,417 [INFO] Reflections took 9 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-08-26 20:19:36,482 [INFO] Reflections took 63 ms to scan 125 urls, producing 0 keys and 0 values 
+2022-08-26 20:19:37,371 [WARN] Ignore the empty nacos configuration and get it based on dataId[albumservice] & group[DEFAULT_GROUP]
+2022-08-26 20:19:37,383 [WARN] Ignore the empty nacos configuration and get it based on dataId[albumservice.yaml] & group[DEFAULT_GROUP]
+2022-08-26 20:19:37,399 [INFO] Located property source: [BootstrapPropertySource {name='bootstrapProperties-albumservice-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-albumservice.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-albumservice,DEFAULT_GROUP'}]
+2022-08-26 20:19:37,431 [INFO] The following profiles are active: dev
+2022-08-26 20:19:37,769 [INFO] BeanFactory id=ade522bd-8634-3dac-9a8c-2a37a488dd8e
+2022-08-26 20:19:37,887 [INFO] Tomcat initialized with port(s): 8084 (http)
+2022-08-26 20:19:37,892 [INFO] Starting service [Tomcat]
+2022-08-26 20:19:37,892 [INFO] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-08-26 20:19:37,951 [INFO] Initializing Spring embedded WebApplicationContext
+2022-08-26 20:19:37,952 [INFO] Root WebApplicationContext: initialization completed in 512 ms
+2022-08-26 20:19:38,032 [INFO] For 'userservice' URL not provided. Will try picking an instance via load-balancing.
+2022-08-26 20:19:38,309 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:19:38,310 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:19:38,312 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:19:38,312 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:19:38,364 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-26 20:19:38,591 [INFO] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 20:19:38,816 [INFO] initializer namespace from System Property : null
+2022-08-26 20:19:38,817 [INFO] initializer namespace from System Environment :null
+2022-08-26 20:19:38,817 [INFO] initializer namespace from System Property :null
+2022-08-26 20:19:38,825 [INFO] [RpcClientFactory] create a new rpc client of 821403c7-7099-4b99-bd7b-b05afdeb91dd
+2022-08-26 20:19:38,826 [INFO] [821403c7-7099-4b99-bd7b-b05afdeb91dd]RpcClient init label, labels={module=naming, source=sdk}
+2022-08-26 20:19:38,826 [INFO] [821403c7-7099-4b99-bd7b-b05afdeb91dd]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+2022-08-26 20:19:38,827 [INFO] [821403c7-7099-4b99-bd7b-b05afdeb91dd]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2022-08-26 20:19:38,827 [INFO] [821403c7-7099-4b99-bd7b-b05afdeb91dd]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2022-08-26 20:19:38,827 [INFO] [821403c7-7099-4b99-bd7b-b05afdeb91dd] Try to connect to server on start up, server: {serverIp='1.116.137.46', server main port=8848}
+2022-08-26 20:19:38,955 [INFO] [821403c7-7099-4b99-bd7b-b05afdeb91dd] Success to connect to server [1.116.137.46:8848] on start up,connectionId=1661516379346_211.161.248.48_50519
+2022-08-26 20:19:38,955 [INFO] [821403c7-7099-4b99-bd7b-b05afdeb91dd]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2022-08-26 20:19:38,955 [INFO] [821403c7-7099-4b99-bd7b-b05afdeb91dd]Notify connected event to listeners.
+2022-08-26 20:19:38,955 [INFO] [821403c7-7099-4b99-bd7b-b05afdeb91dd]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+2022-08-26 20:19:38,955 [INFO] Grpc connection connect
+2022-08-26 20:19:38,975 [INFO] init new ips(0) service: DEFAULT_GROUP@@albumservice@@SH -> []
+2022-08-26 20:19:38,981 [INFO] current ips:(0) service: DEFAULT_GROUP@@albumservice@@SH -> []
+2022-08-26 20:19:38,991 [INFO] Tomcat started on port(s): 8084 (http) with context path ''
+2022-08-26 20:19:38,993 [INFO] [REGISTER-SERVICE] public registering service albumservice with instance Instance{instanceId='null', ip='192.168.1.115', port=8084, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='SH', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2022-08-26 20:19:39,003 [INFO] nacos registry, DEFAULT_GROUP albumservice 192.168.1.115:8084 register finished
+2022-08-26 20:19:39,180 [INFO] Started AlbumApplication in 3.725 seconds (JVM running for 4.309)
+2022-08-26 20:19:39,182 [INFO] [config_rpc_client] [subscribe] albumservice.yaml+DEFAULT_GROUP
+2022-08-26 20:19:39,183 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=albumservice.yaml, group=DEFAULT_GROUP, cnt=1
+2022-08-26 20:19:39,183 [INFO] [config_rpc_client] [subscribe] albumservice-dev.yaml+DEFAULT_GROUP
+2022-08-26 20:19:39,183 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=albumservice-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2022-08-26 20:19:39,183 [INFO] [config_rpc_client] [subscribe] albumservice+DEFAULT_GROUP
+2022-08-26 20:19:39,184 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=albumservice, group=DEFAULT_GROUP, cnt=1
+2022-08-26 20:19:39,513 [INFO] [821403c7-7099-4b99-bd7b-b05afdeb91dd]receive server push request,request=NotifySubscriberRequest,requestId=136
+2022-08-26 20:19:39,514 [INFO] init new ips(1) service: DEFAULT_GROUP@@albumservice -> [{"ip":"192.168.1.115","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@albumservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-08-26 20:19:39,515 [INFO] current ips:(1) service: DEFAULT_GROUP@@albumservice -> [{"ip":"192.168.1.115","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@albumservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-08-26 20:19:39,515 [INFO] [821403c7-7099-4b99-bd7b-b05afdeb91dd]ack server push request,request=NotifySubscriberRequest,requestId=136
+2022-08-26 20:19:39,974 [INFO] new ips(1) service: DEFAULT_GROUP@@albumservice@@SH -> [{"ip":"192.168.1.115","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@albumservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-08-26 20:19:39,974 [INFO] current ips:(1) service: DEFAULT_GROUP@@albumservice@@SH -> [{"ip":"192.168.1.115","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@albumservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-08-26 20:19:44,310 [INFO] Reflections took 18 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-08-26 20:19:44,327 [INFO] Reflections took 9 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-08-26 20:19:44,337 [INFO] Reflections took 8 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-08-26 20:19:44,412 [INFO] Reflections took 73 ms to scan 124 urls, producing 0 keys and 0 values 
+2022-08-26 20:19:44,420 [INFO] Reflections took 8 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-08-26 20:19:44,431 [INFO] Reflections took 10 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-08-26 20:19:44,441 [INFO] Reflections took 9 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-08-26 20:19:44,502 [INFO] Reflections took 59 ms to scan 124 urls, producing 0 keys and 0 values 
+2022-08-26 20:19:45,379 [WARN] Ignore the empty nacos configuration and get it based on dataId[feignservice] & group[DEFAULT_GROUP]
+2022-08-26 20:19:45,389 [WARN] Ignore the empty nacos configuration and get it based on dataId[feignservice.yaml] & group[DEFAULT_GROUP]
+2022-08-26 20:19:45,403 [INFO] Located property source: [BootstrapPropertySource {name='bootstrapProperties-feignservice-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-feignservice.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-feignservice,DEFAULT_GROUP'}]
+2022-08-26 20:19:45,750 [INFO] BeanFactory id=47c7c02f-8b2a-376a-8b13-598ea2c055e7
+2022-08-26 20:19:45,872 [INFO] Tomcat initialized with port(s): 8084 (http)
+2022-08-26 20:19:45,877 [INFO] Starting service [Tomcat]
+2022-08-26 20:19:45,877 [INFO] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-08-26 20:19:45,938 [INFO] Initializing Spring embedded WebApplicationContext
+2022-08-26 20:19:45,938 [INFO] Root WebApplicationContext: initialization completed in 501 ms
+2022-08-26 20:19:46,025 [INFO] For 'userservice' URL not provided. Will try picking an instance via load-balancing.
+2022-08-26 20:19:46,303 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:19:46,303 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:19:46,305 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:19:46,305 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:19:46,357 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-26 20:19:46,584 [INFO] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 20:19:46,809 [INFO] initializer namespace from System Property : null
+2022-08-26 20:19:46,810 [INFO] initializer namespace from System Environment :null
+2022-08-26 20:19:46,810 [INFO] initializer namespace from System Property :null
+2022-08-26 20:19:46,819 [INFO] [RpcClientFactory] create a new rpc client of f95e1c34-c973-4644-91db-cfaab6f88b26
+2022-08-26 20:19:46,819 [INFO] [f95e1c34-c973-4644-91db-cfaab6f88b26]RpcClient init label, labels={module=naming, source=sdk}
+2022-08-26 20:19:46,820 [INFO] [f95e1c34-c973-4644-91db-cfaab6f88b26]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+2022-08-26 20:19:46,820 [INFO] [f95e1c34-c973-4644-91db-cfaab6f88b26]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2022-08-26 20:19:46,820 [INFO] [f95e1c34-c973-4644-91db-cfaab6f88b26]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2022-08-26 20:19:46,820 [INFO] [f95e1c34-c973-4644-91db-cfaab6f88b26] Try to connect to server on start up, server: {serverIp='1.116.137.46', server main port=8848}
+2022-08-26 20:19:46,951 [INFO] [f95e1c34-c973-4644-91db-cfaab6f88b26] Success to connect to server [1.116.137.46:8848] on start up,connectionId=1661516387337_211.161.248.48_50596
+2022-08-26 20:19:46,951 [INFO] [f95e1c34-c973-4644-91db-cfaab6f88b26]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2022-08-26 20:19:46,951 [INFO] [f95e1c34-c973-4644-91db-cfaab6f88b26]Notify connected event to listeners.
+2022-08-26 20:19:46,951 [INFO] [f95e1c34-c973-4644-91db-cfaab6f88b26]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+2022-08-26 20:19:46,951 [INFO] Grpc connection connect
+2022-08-26 20:19:46,969 [INFO] init new ips(0) service: DEFAULT_GROUP@@feignservice@@SH -> []
+2022-08-26 20:19:46,975 [INFO] current ips:(0) service: DEFAULT_GROUP@@feignservice@@SH -> []
+2022-08-26 20:19:46,980 [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8084 is already in use
+2022-08-26 20:19:46,980 [INFO] com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2022-08-26 20:19:46,980 [INFO] com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-08-26 20:19:47,315 [INFO] com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-08-26 20:19:47,315 [INFO] com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2022-08-26 20:19:47,315 [INFO] com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2022-08-26 20:19:47,315 [INFO] com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2022-08-26 20:19:47,519 [INFO] [f95e1c34-c973-4644-91db-cfaab6f88b26]receive server push request,request=NotifySubscriberRequest,requestId=137
+2022-08-26 20:19:47,519 [INFO] init new ips(0) service: DEFAULT_GROUP@@feignservice -> []
+2022-08-26 20:19:47,519 [INFO] current ips:(0) service: DEFAULT_GROUP@@feignservice -> []
+2022-08-26 20:19:47,520 [INFO] [f95e1c34-c973-4644-91db-cfaab6f88b26]ack server push request,request=NotifySubscriberRequest,requestId=137
+2022-08-26 20:19:47,644 [INFO] com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2022-08-26 20:19:47,644 [INFO] com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2022-08-26 20:19:47,644 [WARN] [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-08-26 20:19:47,644 [WARN] [NamingHttpClientManager] Destruction of the end
+2022-08-26 20:19:47,644 [INFO] com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2022-08-26 20:19:47,644 [INFO] com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2022-08-26 20:19:47,644 [INFO] com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-08-26 20:19:47,645 [INFO] com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-08-26 20:19:47,645 [WARN] [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-08-26 20:19:47,645 [WARN] [NamingHttpClientManager] Destruction of the end
+2022-08-26 20:19:47,645 [INFO] [null] CredentialWatcher is stopped
+2022-08-26 20:19:47,645 [INFO] [null] CredentialService is freed
+2022-08-26 20:19:47,645 [INFO] com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2022-08-26 20:19:47,645 [INFO] Shutdown rpc client ,set status to shutdown
+2022-08-26 20:19:47,645 [INFO] Shutdown  client event executor java.util.concurrent.ScheduledThreadPoolExecutor@6b2dd3df[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2022-08-26 20:19:47,645 [INFO] Close current connection 1661516387337_211.161.248.48_50596
+2022-08-26 20:19:47,648 [INFO] Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@432af457[Running, pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 6]
+2022-08-26 20:19:47,648 [INFO] Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@f5a7226[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 0]
+2022-08-26 20:19:47,648 [INFO] com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2022-08-26 20:19:47,648 [INFO] Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 20:19:47,649 [INFO] initializer namespace from System Property : null
+2022-08-26 20:19:47,649 [INFO] initializer namespace from System Environment :null
+2022-08-26 20:19:47,649 [INFO] initializer namespace from System Property :null
+2022-08-26 20:19:47,649 [INFO] [RpcClientFactory] create a new rpc client of abe4a555-9a9b-4322-bc97-ee4f00e6edb6
+2022-08-26 20:19:47,650 [INFO] [abe4a555-9a9b-4322-bc97-ee4f00e6edb6]RpcClient init label, labels={module=naming, source=sdk}
+2022-08-26 20:19:47,650 [INFO] [abe4a555-9a9b-4322-bc97-ee4f00e6edb6]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+2022-08-26 20:19:47,650 [INFO] [abe4a555-9a9b-4322-bc97-ee4f00e6edb6]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2022-08-26 20:19:47,650 [INFO] [abe4a555-9a9b-4322-bc97-ee4f00e6edb6]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2022-08-26 20:19:47,650 [INFO] [abe4a555-9a9b-4322-bc97-ee4f00e6edb6] Try to connect to server on start up, server: {serverIp='1.116.137.46', server main port=8848}
+2022-08-26 20:19:47,651 [INFO] Received trailers on closed stream:
+ Metadata()
+ {2}
+2022-08-26 20:19:47,782 [INFO] [abe4a555-9a9b-4322-bc97-ee4f00e6edb6] Success to connect to server [1.116.137.46:8848] on start up,connectionId=1661516388170_211.161.248.48_50599
+2022-08-26 20:19:47,782 [INFO] [abe4a555-9a9b-4322-bc97-ee4f00e6edb6]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2022-08-26 20:19:47,782 [INFO] [abe4a555-9a9b-4322-bc97-ee4f00e6edb6]Notify connected event to listeners.
+2022-08-26 20:19:47,782 [INFO] [abe4a555-9a9b-4322-bc97-ee4f00e6edb6]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+2022-08-26 20:19:47,782 [INFO] Grpc connection connect
+2022-08-26 20:19:47,784 [INFO] null No credential found
+2022-08-26 20:19:47,792 [INFO] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-26 20:19:47,795 [INFO] Stopping service [Tomcat]
+2022-08-26 20:19:47,802 [INFO] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-08-26 20:19:47,811 [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8084 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8084 or configure this application to listen on another port.
+
+2022-08-26 20:19:47,812 [WARN] [HttpClientBeanHolder] Start destroying common HttpClient
+2022-08-26 20:19:47,812 [WARN] [NotifyCenter] Start destroying Publisher
+2022-08-26 20:19:47,812 [WARN] [NotifyCenter] Destruction of the end
+2022-08-26 20:19:47,812 [WARN] [HttpClientBeanHolder] Destruction of the end
+2022-08-26 20:20:29,530 [INFO] Reflections took 19 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-08-26 20:20:29,547 [INFO] Reflections took 9 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-08-26 20:20:29,556 [INFO] Reflections took 7 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-08-26 20:20:29,632 [INFO] Reflections took 74 ms to scan 124 urls, producing 0 keys and 0 values 
+2022-08-26 20:20:29,641 [INFO] Reflections took 8 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-08-26 20:20:29,651 [INFO] Reflections took 9 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-08-26 20:20:29,661 [INFO] Reflections took 6 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-08-26 20:20:29,721 [INFO] Reflections took 58 ms to scan 124 urls, producing 0 keys and 0 values 
+2022-08-26 20:20:30,603 [WARN] Ignore the empty nacos configuration and get it based on dataId[feignservice] & group[DEFAULT_GROUP]
+2022-08-26 20:20:30,613 [WARN] Ignore the empty nacos configuration and get it based on dataId[feignservice.yaml] & group[DEFAULT_GROUP]
+2022-08-26 20:20:30,626 [INFO] Located property source: [BootstrapPropertySource {name='bootstrapProperties-feignservice-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-feignservice.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-feignservice,DEFAULT_GROUP'}]
+2022-08-26 20:20:30,946 [INFO] BeanFactory id=47c7c02f-8b2a-376a-8b13-598ea2c055e7
+2022-08-26 20:20:31,070 [INFO] Tomcat initialized with port(s): 8083 (http)
+2022-08-26 20:20:31,075 [INFO] Starting service [Tomcat]
+2022-08-26 20:20:31,075 [INFO] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-08-26 20:20:31,136 [INFO] Initializing Spring embedded WebApplicationContext
+2022-08-26 20:20:31,136 [INFO] Root WebApplicationContext: initialization completed in 477 ms
+2022-08-26 20:20:31,219 [INFO] For 'userservice' URL not provided. Will try picking an instance via load-balancing.
+2022-08-26 20:20:31,484 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:20:31,485 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:20:31,486 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 20:20:31,486 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 20:20:31,537 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-26 20:20:31,764 [INFO] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 20:20:31,994 [INFO] initializer namespace from System Property : null
+2022-08-26 20:20:31,994 [INFO] initializer namespace from System Environment :null
+2022-08-26 20:20:31,994 [INFO] initializer namespace from System Property :null
+2022-08-26 20:20:32,002 [INFO] [RpcClientFactory] create a new rpc client of 2a6c4faa-4d14-45b7-8eaf-2e72ea6d36da
+2022-08-26 20:20:32,003 [INFO] [2a6c4faa-4d14-45b7-8eaf-2e72ea6d36da]RpcClient init label, labels={module=naming, source=sdk}
+2022-08-26 20:20:32,003 [INFO] [2a6c4faa-4d14-45b7-8eaf-2e72ea6d36da]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+2022-08-26 20:20:32,004 [INFO] [2a6c4faa-4d14-45b7-8eaf-2e72ea6d36da]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2022-08-26 20:20:32,004 [INFO] [2a6c4faa-4d14-45b7-8eaf-2e72ea6d36da]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2022-08-26 20:20:32,004 [INFO] [2a6c4faa-4d14-45b7-8eaf-2e72ea6d36da] Try to connect to server on start up, server: {serverIp='1.116.137.46', server main port=8848}
+2022-08-26 20:20:32,141 [INFO] [2a6c4faa-4d14-45b7-8eaf-2e72ea6d36da] Success to connect to server [1.116.137.46:8848] on start up,connectionId=1661516432521_211.161.248.48_50682
+2022-08-26 20:20:32,141 [INFO] [2a6c4faa-4d14-45b7-8eaf-2e72ea6d36da]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2022-08-26 20:20:32,141 [INFO] [2a6c4faa-4d14-45b7-8eaf-2e72ea6d36da]Notify connected event to listeners.
+2022-08-26 20:20:32,141 [INFO] [2a6c4faa-4d14-45b7-8eaf-2e72ea6d36da]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+2022-08-26 20:20:32,141 [INFO] Grpc connection connect
+2022-08-26 20:20:32,159 [INFO] init new ips(0) service: DEFAULT_GROUP@@feignservice@@SH -> []
+2022-08-26 20:20:32,164 [INFO] current ips:(0) service: DEFAULT_GROUP@@feignservice@@SH -> []
+2022-08-26 20:20:32,174 [INFO] Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-26 20:20:32,176 [INFO] [REGISTER-SERVICE] public registering service feignservice with instance Instance{instanceId='null', ip='192.168.1.115', port=8083, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='SH', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2022-08-26 20:20:32,186 [INFO] nacos registry, DEFAULT_GROUP feignservice 192.168.1.115:8083 register finished
+2022-08-26 20:20:32,377 [INFO] [config_rpc_client] [subscribe] feignservice-dev.yaml+DEFAULT_GROUP
+2022-08-26 20:20:32,378 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=feignservice-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2022-08-26 20:20:32,378 [INFO] [config_rpc_client] [subscribe] feignservice+DEFAULT_GROUP
+2022-08-26 20:20:32,378 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=feignservice, group=DEFAULT_GROUP, cnt=1
+2022-08-26 20:20:32,379 [INFO] [config_rpc_client] [subscribe] feignservice.yaml+DEFAULT_GROUP
+2022-08-26 20:20:32,379 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=feignservice.yaml, group=DEFAULT_GROUP, cnt=1
+2022-08-26 20:20:32,670 [INFO] [2a6c4faa-4d14-45b7-8eaf-2e72ea6d36da]receive server push request,request=NotifySubscriberRequest,requestId=138
+2022-08-26 20:20:32,671 [INFO] init new ips(1) service: DEFAULT_GROUP@@feignservice -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@feignservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2022-08-26 20:20:32,671 [INFO] current ips:(1) service: DEFAULT_GROUP@@feignservice -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@feignservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2022-08-26 20:20:32,672 [INFO] [2a6c4faa-4d14-45b7-8eaf-2e72ea6d36da]ack server push request,request=NotifySubscriberRequest,requestId=138
+2022-08-26 20:20:33,157 [INFO] new ips(1) service: DEFAULT_GROUP@@feignservice@@SH -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@feignservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2022-08-26 20:20:33,157 [INFO] current ips:(1) service: DEFAULT_GROUP@@feignservice@@SH -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@feignservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2022-08-26 20:21:29,227 [INFO] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-26 20:21:29,227 [INFO] Initializing Servlet 'dispatcherServlet'
+2022-08-26 20:21:29,230 [INFO] Completed initialization in 3 ms
+2022-08-26 20:21:29,330 [INFO] Flipping property: userservice.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2022-08-26 20:21:29,350 [INFO] Client: userservice instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=userservice,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2022-08-26 20:21:29,353 [INFO] Using serverListUpdater PollingServerListUpdater
+2022-08-26 20:21:29,365 [INFO] init new ips(1) service: DEFAULT_GROUP@@userservice -> [{"ip":"192.168.1.115","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@userservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-08-26 20:21:29,365 [INFO] current ips:(1) service: DEFAULT_GROUP@@userservice -> [{"ip":"192.168.1.115","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@userservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2022-08-26 20:21:29,379 [INFO] Flipping property: userservice.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2022-08-26 20:21:29,380 [INFO] DynamicServerListLoadBalancer for client userservice initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=userservice,current list of Servers=[192.168.1.115:8080],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.1.115:8080;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@729035c6
+2022-08-26 20:21:29,909 [INFO] [821403c7-7099-4b99-bd7b-b05afdeb91dd]receive server push request,request=NotifySubscriberRequest,requestId=140
+2022-08-26 20:21:29,909 [INFO] [821403c7-7099-4b99-bd7b-b05afdeb91dd]ack server push request,request=NotifySubscriberRequest,requestId=140
+2022-08-26 20:21:30,368 [INFO] Flipping property: userservice.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2022-08-26 23:20:15,954 [INFO] Reflections took 18 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-08-26 23:20:15,971 [INFO] Reflections took 9 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-08-26 23:20:15,981 [INFO] Reflections took 8 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-08-26 23:20:16,063 [INFO] Reflections took 78 ms to scan 142 urls, producing 0 keys and 0 values 
+2022-08-26 23:20:16,073 [INFO] Reflections took 9 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-08-26 23:20:16,083 [INFO] Reflections took 8 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-08-26 23:20:16,092 [INFO] Reflections took 7 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-08-26 23:20:16,160 [INFO] Reflections took 67 ms to scan 142 urls, producing 0 keys and 0 values 
+2022-08-26 23:20:17,035 [WARN] Ignore the empty nacos configuration and get it based on dataId[feignservice] & group[DEFAULT_GROUP]
+2022-08-26 23:20:17,045 [WARN] Ignore the empty nacos configuration and get it based on dataId[feignservice.yaml] & group[DEFAULT_GROUP]
+2022-08-26 23:20:17,058 [INFO] Located property source: [BootstrapPropertySource {name='bootstrapProperties-feignservice-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-feignservice.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-feignservice,DEFAULT_GROUP'}]
+2022-08-26 23:20:17,369 [INFO] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-26 23:20:17,370 [INFO] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-26 23:20:17,383 [INFO] Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2022-08-26 23:20:17,463 [INFO] BeanFactory id=43a59e9b-3d21-3269-9bbb-ac5d9552abb4
+2022-08-26 23:20:17,597 [INFO] Tomcat initialized with port(s): 8083 (http)
+2022-08-26 23:20:17,602 [INFO] Starting service [Tomcat]
+2022-08-26 23:20:17,602 [INFO] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-08-26 23:20:17,667 [INFO] Initializing Spring embedded WebApplicationContext
+2022-08-26 23:20:17,668 [INFO] Root WebApplicationContext: initialization completed in 575 ms
+2022-08-26 23:20:17,864 [INFO] For 'userservice' URL not provided. Will try picking an instance via load-balancing.
+2022-08-26 23:20:18,205 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 23:20:18,205 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 23:20:18,207 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 23:20:18,208 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 23:20:18,284 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-26 23:20:18,551 [INFO] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 23:20:18,857 [INFO] initializer namespace from System Property : null
+2022-08-26 23:20:18,857 [INFO] initializer namespace from System Environment :null
+2022-08-26 23:20:18,858 [INFO] initializer namespace from System Property :null
+2022-08-26 23:20:18,866 [INFO] [RpcClientFactory] create a new rpc client of 35753ef4-1a2e-43b5-8852-b0795023e4e1
+2022-08-26 23:20:18,867 [INFO] [35753ef4-1a2e-43b5-8852-b0795023e4e1]RpcClient init label, labels={module=naming, source=sdk}
+2022-08-26 23:20:18,868 [INFO] [35753ef4-1a2e-43b5-8852-b0795023e4e1]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+2022-08-26 23:20:18,868 [INFO] [35753ef4-1a2e-43b5-8852-b0795023e4e1]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2022-08-26 23:20:18,868 [INFO] [35753ef4-1a2e-43b5-8852-b0795023e4e1]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2022-08-26 23:20:18,868 [INFO] [35753ef4-1a2e-43b5-8852-b0795023e4e1] Try to connect to server on start up, server: {serverIp='1.116.137.46', server main port=8848}
+2022-08-26 23:20:19,004 [INFO] [35753ef4-1a2e-43b5-8852-b0795023e4e1] Success to connect to server [1.116.137.46:8848] on start up,connectionId=1661527219414_211.161.248.48_49977
+2022-08-26 23:20:19,004 [INFO] [35753ef4-1a2e-43b5-8852-b0795023e4e1]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2022-08-26 23:20:19,004 [INFO] [35753ef4-1a2e-43b5-8852-b0795023e4e1]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+2022-08-26 23:20:19,004 [INFO] [35753ef4-1a2e-43b5-8852-b0795023e4e1]Notify connected event to listeners.
+2022-08-26 23:20:19,004 [INFO] Grpc connection connect
+2022-08-26 23:20:19,024 [INFO] init new ips(0) service: DEFAULT_GROUP@@feignservice@@SH -> []
+2022-08-26 23:20:19,029 [INFO] current ips:(0) service: DEFAULT_GROUP@@feignservice@@SH -> []
+2022-08-26 23:20:19,040 [INFO] Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-26 23:20:19,042 [INFO] [REGISTER-SERVICE] public registering service feignservice with instance Instance{instanceId='null', ip='192.168.1.115', port=8083, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='SH', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2022-08-26 23:20:19,054 [INFO] nacos registry, DEFAULT_GROUP feignservice 192.168.1.115:8083 register finished
+2022-08-26 23:20:19,232 [INFO] [config_rpc_client] [subscribe] feignservice-dev.yaml+DEFAULT_GROUP
+2022-08-26 23:20:19,233 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=feignservice-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2022-08-26 23:20:19,233 [INFO] [config_rpc_client] [subscribe] feignservice+DEFAULT_GROUP
+2022-08-26 23:20:19,233 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=feignservice, group=DEFAULT_GROUP, cnt=1
+2022-08-26 23:20:19,233 [INFO] [config_rpc_client] [subscribe] feignservice.yaml+DEFAULT_GROUP
+2022-08-26 23:20:19,233 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=feignservice.yaml, group=DEFAULT_GROUP, cnt=1
+2022-08-26 23:20:19,533 [INFO] [35753ef4-1a2e-43b5-8852-b0795023e4e1]receive server push request,request=NotifySubscriberRequest,requestId=150
+2022-08-26 23:20:19,535 [INFO] init new ips(1) service: DEFAULT_GROUP@@feignservice -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@feignservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2022-08-26 23:20:19,536 [INFO] current ips:(1) service: DEFAULT_GROUP@@feignservice -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@feignservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2022-08-26 23:20:19,536 [INFO] [35753ef4-1a2e-43b5-8852-b0795023e4e1]ack server push request,request=NotifySubscriberRequest,requestId=150
+2022-08-26 23:20:20,032 [INFO] new ips(1) service: DEFAULT_GROUP@@feignservice@@SH -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@feignservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2022-08-26 23:20:20,032 [INFO] current ips:(1) service: DEFAULT_GROUP@@feignservice@@SH -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@feignservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2022-08-26 23:22:24,209 [INFO] Reflections took 19 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-08-26 23:22:24,226 [INFO] Reflections took 9 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-08-26 23:22:24,236 [INFO] Reflections took 8 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-08-26 23:22:24,326 [INFO] Reflections took 85 ms to scan 142 urls, producing 0 keys and 0 values 
+2022-08-26 23:22:24,337 [INFO] Reflections took 10 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-08-26 23:22:24,353 [INFO] Reflections took 13 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-08-26 23:22:24,362 [INFO] Reflections took 6 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-08-26 23:22:24,430 [INFO] Reflections took 67 ms to scan 142 urls, producing 0 keys and 0 values 
+2022-08-26 23:22:25,317 [WARN] Ignore the empty nacos configuration and get it based on dataId[feignservice] & group[DEFAULT_GROUP]
+2022-08-26 23:22:25,326 [WARN] Ignore the empty nacos configuration and get it based on dataId[feignservice.yaml] & group[DEFAULT_GROUP]
+2022-08-26 23:22:25,339 [INFO] Located property source: [BootstrapPropertySource {name='bootstrapProperties-feignservice-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-feignservice.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-feignservice,DEFAULT_GROUP'}]
+2022-08-26 23:22:25,653 [INFO] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-26 23:22:25,655 [INFO] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-26 23:22:25,668 [INFO] Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2022-08-26 23:22:25,752 [INFO] BeanFactory id=43a59e9b-3d21-3269-9bbb-ac5d9552abb4
+2022-08-26 23:22:25,885 [INFO] Tomcat initialized with port(s): 8083 (http)
+2022-08-26 23:22:25,890 [INFO] Starting service [Tomcat]
+2022-08-26 23:22:25,890 [INFO] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-08-26 23:22:25,956 [INFO] Initializing Spring embedded WebApplicationContext
+2022-08-26 23:22:25,956 [INFO] Root WebApplicationContext: initialization completed in 582 ms
+2022-08-26 23:22:26,186 [INFO] For 'userservice' URL not provided. Will try picking an instance via load-balancing.
+2022-08-26 23:22:26,472 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 23:22:26,472 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 23:22:26,474 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 23:22:26,474 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 23:22:26,546 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-26 23:22:26,783 [INFO] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 23:22:27,058 [INFO] initializer namespace from System Property : null
+2022-08-26 23:22:27,059 [INFO] initializer namespace from System Environment :null
+2022-08-26 23:22:27,059 [INFO] initializer namespace from System Property :null
+2022-08-26 23:22:27,068 [INFO] [RpcClientFactory] create a new rpc client of 48e18748-a4f5-4b53-8767-bfb42dc7d67a
+2022-08-26 23:22:27,068 [INFO] [48e18748-a4f5-4b53-8767-bfb42dc7d67a]RpcClient init label, labels={module=naming, source=sdk}
+2022-08-26 23:22:27,069 [INFO] [48e18748-a4f5-4b53-8767-bfb42dc7d67a]RpcClient init, ServerListFactory =com.alibaba.nacos.client.naming.core.ServerListManager
+2022-08-26 23:22:27,069 [INFO] [48e18748-a4f5-4b53-8767-bfb42dc7d67a]Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2022-08-26 23:22:27,070 [INFO] [48e18748-a4f5-4b53-8767-bfb42dc7d67a]Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2022-08-26 23:22:27,070 [INFO] [48e18748-a4f5-4b53-8767-bfb42dc7d67a] Try to connect to server on start up, server: {serverIp='1.116.137.46', server main port=8848}
+2022-08-26 23:22:27,204 [INFO] [48e18748-a4f5-4b53-8767-bfb42dc7d67a] Success to connect to server [1.116.137.46:8848] on start up,connectionId=1661527347611_211.161.248.48_50141
+2022-08-26 23:22:27,204 [INFO] [48e18748-a4f5-4b53-8767-bfb42dc7d67a]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2022-08-26 23:22:27,204 [INFO] [48e18748-a4f5-4b53-8767-bfb42dc7d67a]Notify connected event to listeners.
+2022-08-26 23:22:27,204 [INFO] [48e18748-a4f5-4b53-8767-bfb42dc7d67a]Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$4
+2022-08-26 23:22:27,204 [INFO] Grpc connection connect
+2022-08-26 23:22:27,224 [INFO] init new ips(0) service: DEFAULT_GROUP@@feignservice@@SH -> []
+2022-08-26 23:22:27,230 [INFO] current ips:(0) service: DEFAULT_GROUP@@feignservice@@SH -> []
+2022-08-26 23:22:27,255 [INFO] Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-26 23:22:27,257 [INFO] [REGISTER-SERVICE] public registering service feignservice with instance Instance{instanceId='null', ip='192.168.1.115', port=8083, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='SH', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2022-08-26 23:22:27,268 [INFO] nacos registry, DEFAULT_GROUP feignservice 192.168.1.115:8083 register finished
+2022-08-26 23:22:27,450 [INFO] [config_rpc_client] [subscribe] feignservice-dev.yaml+DEFAULT_GROUP
+2022-08-26 23:22:27,451 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=feignservice-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2022-08-26 23:22:27,451 [INFO] [config_rpc_client] [subscribe] feignservice+DEFAULT_GROUP
+2022-08-26 23:22:27,452 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=feignservice, group=DEFAULT_GROUP, cnt=1
+2022-08-26 23:22:27,452 [INFO] [config_rpc_client] [subscribe] feignservice.yaml+DEFAULT_GROUP
+2022-08-26 23:22:27,452 [INFO] [config_rpc_client] [add-listener] ok, tenant=, dataId=feignservice.yaml, group=DEFAULT_GROUP, cnt=1
+2022-08-26 23:22:27,744 [INFO] [48e18748-a4f5-4b53-8767-bfb42dc7d67a]receive server push request,request=NotifySubscriberRequest,requestId=151
+2022-08-26 23:22:27,745 [INFO] init new ips(1) service: DEFAULT_GROUP@@feignservice -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@feignservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2022-08-26 23:22:27,745 [INFO] current ips:(1) service: DEFAULT_GROUP@@feignservice -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@feignservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2022-08-26 23:22:27,746 [INFO] [48e18748-a4f5-4b53-8767-bfb42dc7d67a]ack server push request,request=NotifySubscriberRequest,requestId=151
+2022-08-26 23:22:28,225 [INFO] new ips(1) service: DEFAULT_GROUP@@feignservice@@SH -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@feignservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2022-08-26 23:22:28,226 [INFO] current ips:(1) service: DEFAULT_GROUP@@feignservice@@SH -> [{"ip":"192.168.1.115","port":8083,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"SH","serviceName":"DEFAULT_GROUP@@feignservice","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]

@@ -1,0 +1,25 @@
+server:
+  port: 8085
+spring:
+  #nacos配置
+  cloud:
+    nacos:
+      #配置集群名称，也就是机房位置，如：HZ，SH
+      discovery:
+        cluster-name: SH
+
+#feign日志级别
+logging:
+  level:
+    com.feign.client: debug
+
+#nacos负载均衡：优先选择自己集群的服务
+usersevice:
+  ribbon:
+    NFLoadBalanceRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule
+rocketmqsevice:
+  ribbon:
+    NFLoadBalanceRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule
+albumsevice:
+  ribbon:
+    NFLoadBalanceRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule

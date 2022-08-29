@@ -1,0 +1,30 @@
+server:
+  port: 8082
+spring:
+  redis:
+    host: 1.116.137.46
+    port: 6379
+    lettuce:
+      pool:
+        #连接池最大连接量
+        max-active: 8
+        #连接最大阻塞时间
+        max-wait: -1
+        #空闲的最大数量
+        max-idle: 8
+        #空闲的最小数量
+        min-idle: 0
+    timeout: 30000
+  #nacos配置
+  cloud:
+    nacos:
+      #配置集群名称，也就是机房位置，如：HZ，SH
+      discovery:
+        cluster-name: SH
+  #cos配置
+  cos:
+    SecretId: AKIDZzCAsLceS0Xw680pPvFpIYdXHoFeswnQ
+    SecretKey: UkphMo5A1f5KNCnDRRDmBNM7tdKsCIAo
+    region: ap-shanghai
+    bucketName: jiezishubucket-1313361436
+

@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: feignservice
+  profiles:
+    active: dev #开发环境
+  cloud:
+    nacos:
+      #nacos地址
+      server-addr: http://1.116.137.46:8848
+      config:
+        file-extension: yaml #文件后缀名

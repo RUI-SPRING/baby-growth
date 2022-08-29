@@ -1,0 +1,122 @@
+2022-08-26 19:43:47,666 [INFO] Reflections took 23 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-08-26 19:43:47,683 [INFO] Reflections took 9 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-08-26 19:43:47,693 [INFO] Reflections took 8 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-08-26 19:43:47,777 [INFO] Reflections took 82 ms to scan 148 urls, producing 0 keys and 0 values 
+2022-08-26 19:43:47,784 [INFO] Reflections took 6 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-08-26 19:43:47,792 [INFO] Reflections took 7 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-08-26 19:43:47,800 [INFO] Reflections took 7 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-08-26 19:43:47,872 [INFO] Reflections took 71 ms to scan 148 urls, producing 0 keys and 0 values 
+2022-08-26 19:43:48,756 [WARN] Ignore the empty nacos configuration and get it based on dataId[rocketmqservice] & group[DEFAULT_GROUP]
+2022-08-26 19:43:48,765 [WARN] Ignore the empty nacos configuration and get it based on dataId[rocketmqservice.yaml] & group[DEFAULT_GROUP]
+2022-08-26 19:43:48,784 [INFO] Located property source: [BootstrapPropertySource {name='bootstrapProperties-rocketmqservice-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-rocketmqservice.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-rocketmqservice,DEFAULT_GROUP'}]
+2022-08-26 19:43:49,101 [INFO] BeanFactory id=760e1853-d753-3697-8cff-2bf81397ca66
+2022-08-26 19:43:49,237 [INFO] Tomcat initialized with port(s): 8081 (http)
+2022-08-26 19:43:49,241 [INFO] Starting service [Tomcat]
+2022-08-26 19:43:49,241 [INFO] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-08-26 19:43:49,303 [INFO] Initializing Spring embedded WebApplicationContext
+2022-08-26 19:43:49,303 [INFO] Root WebApplicationContext: initialization completed in 509 ms
+2022-08-26 19:43:49,931 [INFO] For 'userservice' URL not provided. Will try picking an instance via load-balancing.
+2022-08-26 19:43:50,244 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 19:43:50,244 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 19:43:50,246 [WARN] No URLs will be polled as dynamic configuration sources.
+2022-08-26 19:43:50,246 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-26 19:43:50,305 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-26 19:43:50,540 [INFO] Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-26 19:43:51,404 [INFO] running container: DefaultRocketMQListenerContainer{consumerGroup='MQ_INST_rocketmqvv9engbbppnm_JieZiShuSpace%JieZiShuGroup', nameServer='MQ_INST_rocketmqvv9engbbppnm_JieZiShuSpace.tdmq-rocketmq.ap-gz.public.tencenttdmq.com:9876', topic='MQ_INST_rocketmqvv9engbbppnm_JieZiShuSpace%JieZiShuTopic', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='TAG', messageModel=CLUSTERING}
+2022-08-26 19:43:51,405 [INFO] Register the listener to container, listenerBeanName:rockerMqConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2022-08-26 19:43:51,612 [INFO] Tomcat started on port(s): 8081 (http) with context path ''
+2022-08-26 19:43:51,625 [INFO] nacos registry, DEFAULT_GROUP rocketmqservice 192.168.1.115:8081 register finished
+2022-08-26 19:45:15,953 [INFO] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-26 19:45:15,953 [INFO] Initializing Servlet 'dispatcherServlet'
+2022-08-26 19:45:15,957 [INFO] Completed initialization in 3 ms
+2022-08-26 19:45:16,054 [INFO] Flipping property: userservice.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2022-08-26 19:45:16,073 [INFO] Client: userservice instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=userservice,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2022-08-26 19:45:16,076 [INFO] Using serverListUpdater PollingServerListUpdater
+2022-08-26 19:45:16,088 [INFO] DynamicServerListLoadBalancer for client userservice initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=userservice,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@5dad222e
+2022-08-26 19:45:16,133 [ERROR] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: com.netflix.client.ClientException: Load balancer does not have available server for client: userservice] with root cause
+com.netflix.client.ClientException: Load balancer does not have available server for client: userservice
+	at com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:483)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:184)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)
+	at rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)
+	at rx.Subscriber.setProducer(Subscriber.java:209)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10423)
+	at rx.Observable.subscribe(Observable.java:10390)
+	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:443)
+	at rx.observables.BlockingObservable.single(BlockingObservable.java:340)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:112)
+	at org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:84)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:119)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:89)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:100)
+	at com.sun.proxy.$Proxy83.hello(Unknown Source)
+	at com.mq.service.impl.RocketMqServiceImpl.hello(RocketMqServiceImpl.java:16)
+	at com.mq.controller.SendMessageController.hello(SendMessageController.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-26 19:45:47,108 [INFO] Flipping property: userservice.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647

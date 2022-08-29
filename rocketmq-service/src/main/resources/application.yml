@@ -1,0 +1,42 @@
+server:
+  port: 8081
+spring:
+  #nacos配置
+  cloud:
+    nacos:
+      #配置集群名称，也就是机房位置，如：HZ，SH
+      discovery:
+        cluster-name: SH
+
+
+#rocketmq配置信息
+rocketmq:
+  # tdmq-rocketmq服务接入地址
+  name-server: MQ_INST_rocketmqvv9engbbppnm_JieZiShuSpace.tdmq-rocketmq.ap-gz.public.tencenttdmq.com:9876
+  # 生产者配置
+  producer:
+    # 生产者组名
+    group: JieZiShuGroup
+    # 角色密钥
+    access-key: eyJrZXlJZCI6InJvY2tldG1xLXZ2OWVuZ2JicHBubSIsImFsZyI6IkhTMjU2In0.eyJzdWIiOiJyb2NrZXRtcS12djllbmdiYnBwbm1fYWRtaW4ifQ.ql1tzejGpcjfRvALSWx7g0cjqd25GePcy2vP38wKpHE
+    # 已授权的角色名称
+    secret-key: admin
+  # 消费者公共配置
+  consumer:
+    # 角色密钥
+    access-key: eyJrZXlJZCI6InJvY2tldG1xLXZ2OWVuZ2JicHBubSIsImFsZyI6IkhTMjU2In0.eyJzdWIiOiJyb2NrZXRtcS12djllbmdiYnBwbm1fYWRtaW4ifQ.ql1tzejGpcjfRvALSWx7g0cjqd25GePcy2vP38wKpHE
+    # 已授权的角色名称
+    secret-key: admin
+
+  # 用户自定义配置
+  namespace: MQ_INST_rocketmqvv9engbbppnm_JieZiShuSpace
+  producer1:
+    topic: JieZiShuTopic
+  consumer1:
+    group: JieZiShuGroup
+    topic: JieZiShuTopic
+    subExpression: TAG
+  consumer2:
+    group: JieZiShuGroup
+    topic: JieZiShuTopic
+    subExpression: TAG
