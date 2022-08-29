@@ -1,6 +1,5 @@
 package com.user.service.impl;
 
-import cn.hutool.json.JSONUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.user.config.UserProperties;
 import com.user.dao.UserMapper;
@@ -11,7 +10,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
@@ -37,7 +35,18 @@ public class UserServiceImpl implements UserService {
 
 
     /**
-     * 根据表id查user
+     * 查询全部用户
+     * @return
+     */
+    @Override
+    public List<User> queryAll() {
+        return userMapper.selectList(null);
+    }
+
+
+
+    /**
+     * 根据用户表id查user
      * @param id
      * @return
      */
@@ -47,29 +56,17 @@ public class UserServiceImpl implements UserService {
     }
 
     /**
-     * 根据用户id查user
+     * 根据用户唯一id查user
      * @param userId
      * @return
      */
     @Override
     public User findByUserId(Long userId) {
         QueryWrapper<User> wrapper = new QueryWrapper<>();// 构建一个查询的wrapper
-        wrapper.eq("user_name", "userName");// 设置name的条件
+        wrapper.eq("user_id", userId);// 设置name的条件
         // 这里我们知道只有一个，所以直接用selectOne
         return userMapper.selectOne(wrapper);
     }
-
-
-
-    /**
-     * 查询全部用户
-     * @return
-     */
-    @Override
-    public List<User> queryAll() {
-        return userMapper.selectList(null);
-    }
-
 
     /**
      * 新增用户
@@ -98,13 +95,25 @@ public class UserServiceImpl implements UserService {
 
 
     /**
-     * 根据id删除用户信息
+     * 根据用户表id删除用户信息
      * @param id
      * @return
      */
     @Override
     public int deleteUser(Long id) {
         return userMapper.deleteById(id);
+    }
+
+    /**
+     * 根据用户唯一id删除用户
+     * @param userId
+     * @return
+     */
+    @Override
+    public int deleteByUserId(Long userId) {
+        QueryWrapper<User> wrapper = new QueryWrapper<>();// 构建一个查询的wrapper
+        wrapper.eq("user_id", userId);// 设置条件
+        return userMapper.delete(wrapper);
     }
 
 

@@ -24,5 +24,7 @@ public interface UserService {
 
     int deleteUser(Long id);
 
+    int deleteByUserId(Long userId);
+
     String hello();
 }
